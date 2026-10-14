@@ -10,6 +10,8 @@
 
 **Feature spec (Draft):** [GD-FANS-004 — Regeneration Speed Model](FANS-26_CELL_TISSUE_FUNCTION_REGENERATION_SPEED_MODEL_v1_TH.md) — แยก CPM/TRR/FIR, เพดาน 180×, tier RG-I..V, resource debt และ functional recovery gate; รอ DEC-010
 
+**Infected Type registry (Draft):** [FANS-26 Type Classification](FANS-26_INFECTED_TYPE_CLASSIFICATION_v1_TH.md) — VT00–VT05, behavior overlays, 70/30 baseline, New Types 8%, visual cues; แยก case/stage/severity/VT/RG
+
 ใช้เก็บกติกา ประสบการณ์ผู้เล่น ระบบจำลอง การพึ่งพากันของระบบ และการทดลองสมดุล GDD เป็นเอกสารแม่; feature spec ที่เพิ่มภายหลังควรลิงก์หัวข้อที่เกี่ยวข้องและระบุส่วนที่ขยายหรือแทนที่
 
 ## แผนที่หัวข้อใน GDD
