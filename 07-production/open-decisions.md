@@ -16,6 +16,8 @@
 | DEC-005 | Brand ข้อ 13 ยังรอสรุป tagline, logo และสัดส่วน horror เทียบกับ rescue/survival | ชุดทิศทางแบรนด์ที่เลือกและเงื่อนไขก่อน production lock | Open |
 | DEC-006 | Handoff ข้อ 4 ระบุความขัดกันเดิม Y-up/Z-up; runtime v0.6 ใช้โมเดล ทางเดิน จุดวาง และเซฟเป็น Y-up/XZ/เมตรตรงกันและมีผลทดสอบ | รับรองสัญญา coordinates ระยะยาวสำหรับเครื่องมือ/engine ที่จะเลือกต่อไป | Open |
 
+| DEC-007 | [Dual-Agent FANS-26 lore proposal](../03-narrative/FANS-26_DUAL_AGENT_THIRST_LORE_TH.md): เสนอ P-08 ปรสิตซึ่งสัมพันธ์กับไข้/ขาดน้ำ และ V-26 ไวรัสร่วมอาศัยซึ่งสัมพันธ์กับอาการทางสมอง; ขัดกับ Story Canon §5.1 ที่เรียกเชื้อเป็นไวรัสเดี่ยว | ตัดสินใจ 4 เรื่อง: (A) เชื้อคู่หรือไวรัสเดี่ยว (B) ถ่ายทอดเชื้อทั้งคู่ผ่านการกัดหรือไม่ (C) Blood-Seeker เป็น subtype จริงหรืออาการ (D) ความถี่และ rating ของ cannibalism; ก่อนยืนยันห้าม retcon โดยไม่มี review | Open · 2026-10-14 |
+
 ## แหล่งอ้างอิง
 
 - [GDD](../02-game-design/LAND_OF_SMILES_GDD_v1_TH.md) โดยเฉพาะข้อ 9, 14, 15 และ 17

@@ -23,6 +23,10 @@
 
 ---
 
+**Lore proposal (pending):** ก่อนเขียนเหตุการณ์เกี่ยวกับความกระหาย/การกัดกันเอง โปรดอ่าน [Dual-Agent FANS-26 Lore](03-narrative/FANS-26_DUAL_AGENT_THIRST_LORE_TH.md) และ [GD-FANS-001](02-game-design/FANS-26_DUAL_AGENT_BEHAVIOR_SPEC_TH.md) ควบคู่ Canon หลัก; ตราบใดที่ DEC-007 ยัง Open ห้ามอ้างว่าสองเชื้อเป็นคำเฉลยที่ยืนยันแล้ว หรือว่าอาการกระหายน้ำหมายถึงติดเชื้อทุกกรณี
+
+---
+
 ## 🚀 ขั้นตอนการมีส่วนร่วม (How to Contribute)
 
 1. **Fork หรือ Clone Repository:**

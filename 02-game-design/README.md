@@ -4,6 +4,8 @@
 
 เอกสารหลัก: [Game Design Document v1](LAND_OF_SMILES_GDD_v1_TH.md)
 
+**Feature spec ที่รอ review:** [GD-FANS-001 — Dual-Agent Thirst & Behavioral Crisis](FANS-26_DUAL_AGENT_BEHAVIOR_SPEC_TH.md) — วงจรกระหายจริง/สมองเสื่อม/การลงน้ำ/การกัด/การคัดกรอง และ acceptance criteria ที่ใช้กับ S9
+
 ใช้เก็บกติกา ประสบการณ์ผู้เล่น ระบบจำลอง การพึ่งพากันของระบบ และการทดลองสมดุล GDD เป็นเอกสารแม่; feature spec ที่เพิ่มภายหลังควรลิงก์หัวข้อที่เกี่ยวข้องและระบุส่วนที่ขยายหรือแทนที่
 
 ## แผนที่หัวข้อใน GDD

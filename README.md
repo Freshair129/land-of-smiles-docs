@@ -41,6 +41,14 @@
 
 ---
 
+## 🦠 FANS-26 Dual-Agent Expansion (รออนุมัติ)
+
+- [Lore — The Thirst That Drowns](03-narrative/FANS-26_DUAL_AGENT_THIRST_LORE_TH.md): P-08 protozoan parasite + V-26 parasite-associated virus เป็นสมมติฐานใหม่; อธิบายไข้/ขาดน้ำจริง, executive dysfunction และ rare blood-seeking subtype
+- [GD-FANS-001 Behavior Spec](02-game-design/FANS-26_DUAL_AGENT_BEHAVIOR_SPEC_TH.md): ระบบสังเกตอาการ คิวแจกน้ำ NPC ที่เสี่ยงลงน้ำท่วม และ acceptance criteria
+- **อ่านก่อนแก้:** Story Canon §5.1 ยังระบุเชื้อเป็นไวรัสเดี่ยว; Dual-Agent เป็น proposal และต้องผ่าน DEC-007 ก่อนเปลี่ยน taxonomy แบบถาวร ผู้ป่วยกระหายน้ำ/มีไข้ไม่ได้แปลว่าติดเชื้อแน่นอน
+
+---
+
 ## 📁 สารบัญโครงสร้าง Repository (Directory Map)
 
 ```text

@@ -4,6 +4,8 @@
 
 เอกสารหลัก: [Campaign 01: Bangkok Outbreak — Story Canon](LAND_OF_SMILES_STORY_CANON_v1_TH.md)
 
+**Lore proposal เพิ่มเติม:** [FANS-26 — Dual-Agent Infection: The Thirst That Drowns](FANS-26_DUAL_AGENT_THIRST_LORE_TH.md) — ปรสิต P-08 + ไวรัส V-26, อาการขาดน้ำจริง, สมองเสื่อม, ผู้ติดเชื้อกัดกันเอง และประเด็นชนิดเชื้อที่รอ DEC-007
+
 ใช้เก็บ world bible, timeline, ตัวละคร กลุ่มอำนาจ บทสนทนา และเนื้อหาเหตุการณ์ โดยแยก **Canon**, **สมมติฐานที่ตัวละครเชื่อ** และ **ข้อเสนอของผู้เขียน** ออกจากกัน
 
 | ต้องการอ่าน | ส่วนใน Story Canon |
