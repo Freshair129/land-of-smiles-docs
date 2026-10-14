@@ -79,6 +79,8 @@
 **ชื่อชั่วคราวในเอกสารของรัฐ:** Flood-Associated Neurological Syndrome 2026 (**FANS-26**)  
 **รหัสแฟ้มสอบสวนความมั่นคง:** **Agent H-08** (บันทึกแรก พ.ย. 2568 เขต 8 หาดใหญ่)
 
+**Proposed clinical/surveillance addendum:** [FANS-26 Clinical Case Definition](FANS-26_CLINICAL_CASE_DEFINITION_v1_TH.md) แยกการรายงานผู้ป่วย C00–C40, clinical stages S01–S04, severity และอาการ; WHO-inspired ไม่ใช่เอกสาร WHO และไม่ได้รับรองชุดตรวจโรคหรือเปลี่ยน §5.1 ก่อน DEC-007/011
+
 ### 5.1 ข้อมูลทางชีววิทยาและธรรมชาติของเชื้อ (Pathogen Profile)
 * **การจำแนกชนิดสมมติ:** ไวรัสกลุ่ม **Zoonotic Neurotropic RNA Virus** (มีพยาธิสภาพร่วมระหว่างกลุ่ม *Lyssavirus* และ *Henipavirus/Nipah*) มีสารพันธุกรรมแบบ single-stranded RNA มีเยื่อหุ้มไขมัน (Lipid envelope) ทำให้ถูกทำลายได้ด้วยความร้อน สบู่ หรือคลอรีน แต่สามารถแฝงตัวในสารคัดหลั่งและคงสภาพในน้ำนิ่งที่มีอินทรียวัตถุสูงได้ระยะหนึ่ง
 * **แหล่งรังโรคธรรมชาติ (Natural Reservoirs):** สัตว์ฟันแทะในเมือง (*Rattus norvegicus*) และค้างคาวผลไม้ที่หากินตามรอยต่อชานเมือง เมื่อเกิดอุทกภัย สัตว์เหล่านี้หนีน้ำขึ้นสู่อาคารของมนุษย์ เกิดการปะทะและการแพร่เชื้อข้ามสายพันธุ์ (Spillover)
