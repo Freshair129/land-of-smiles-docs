@@ -53,6 +53,16 @@
 
 - **GD-FANS-004 (Draft):** [Cell / Tissue / Function Regeneration Speed](02-game-design/FANS-26_CELL_TISSUE_FUNCTION_REGENERATION_SPEED_MODEL_v1_TH.md) — แยก CPM/TRR/FIR, อ้างอิงวิทยาศาสตร์, tier RG-I..V และ resource ceiling; pending DEC-010
 
+## 🩺 FANS-26 Clinical / Types / Coding (WHO-inspired; not WHO-approved)
+
+- [Clinical Syndrome & Surveillance Case Definition](03-narrative/FANS-26_CLINICAL_CASE_DEFINITION_v1_TH.md) — สถานะ C00–C40, symptom codes, stage S01–S04, severity, reporting
+- [Infected Type Classification](02-game-design/FANS-26_INFECTED_TYPE_CLASSIFICATION_v1_TH.md) — VT00–VT05, behavior overlays, 70/30 และ New Type 8% ต่อ cohort
+- [Coding & Case Data Dictionary](06-engineering/FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md) — LOS-FANS26 registry, stable patient ID, privacy/audit/version; pending DEC-011
+
+**Important:** โรคและรหัส LOS-FANS26 เป็นเรื่องแต่ง ใช้โครงสร้าง WHO เป็นแรงบันดาลใจเท่านั้น ไม่มีการรับรอง WHO/ICD-11
+
+---
+
 ## 📁 สารบัญโครงสร้าง Repository (Directory Map)
 
 ```text
