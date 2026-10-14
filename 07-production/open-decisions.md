@@ -1,11 +1,11 @@
 # ทะเบียนการตัดสินใจ
 
 **อัปเดต:** 2026-10-14  
-**สถานะ:** Accepted 1 เรื่อง / Open 8 เรื่อง
+**สถานะ:** Accepted 1 เรื่อง / Open 9 เรื่อง
 
 [กลับหมวด Production](README.md)
 
-รายการนี้รวบรวมคำตัดสินและจุดที่ควรชี้ให้ชัดก่อนขยายข้อกำหนด DEC-001 ได้รับคำยืนยันจากเจ้าของโปรเจกต์เมื่อ 2026-10-14 ส่วน DEC-002 ถึง DEC-009 ยังเปิดอยู่
+รายการนี้รวบรวมคำตัดสินและจุดที่ควรชี้ให้ชัดก่อนขยายข้อกำหนด DEC-001 ได้รับคำยืนยันจากเจ้าของโปรเจกต์เมื่อ 2026-10-14 ส่วน DEC-002 ถึง DEC-010 ยังเปิดอยู่
 
 | ID | ประเด็นและหลักฐาน | สิ่งที่ต้องสรุป | สถานะ |
 |---|---|---|---|
@@ -20,6 +20,8 @@
 
 | DEC-008 | Regenerative Overdrive — ความสามารถซ่อมแซมเนื้อเยื่อของ V-26 (ข้อเสนอ) ส่งผลต่อการใช้ทรัพยากรและความกระหาย | ตัดสินข้อจำกัดการซ่อมแซม การตายและความจำ, resource debt และต้นทุนการฟื้นฟู; ดู [GD-FANS-003](../02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) | Open · 2026-10-14 |
 | DEC-009 | [Regenerative Instability & Infected Variants GD-FANS-003](../02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) — เสนอ 8% New Types ต่อ 100 ผู้ติดเชื้อ Stage 3 โดยเป็น subset ของ 70% Hyper และใช้ 21 วันจำลอง | อนุมัติอัตรา/ตัวหาร, เงื่อนไข 20 eligible → 8 variant + 12 failure, 5 ประเภทและอัตราแยก, RNG/telemetry/test ก่อน implementation | Open · 2026-10-14 |
+
+| DEC-010 | [GD-FANS-004 Regeneration Speed Model](../02-game-design/FANS-26_CELL_TISSUE_FUNCTION_REGENERATION_SPEED_MODEL_v1_TH.md) — แยก CPM/TRR/FIR และ Tier RG-I..V ออกจาก New Type VT-01..05 | ตรวจค่าประกอบ CPM 5–180×, TRR 0.1–50 g/min แบบ burst, FIR gating, resource debt, ระยะ burst, ขอบเขตเนื้อเยื่อและ QA ก่อนล็อกบาลานซ์; อ้างอิงข้าม species เป็นแรงบันดาลใจ ไม่ใช่ข้อมูลการสร้างเนื้อเยื่อของมนุษย์ | Open · 2026-10-14 |
 
 ## แหล่งอ้างอิง
 

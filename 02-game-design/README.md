@@ -8,6 +8,8 @@
 
 **Feature spec ใหม่ (Draft):** [GD-FANS-003 — Regenerative Instability & Infected Variants](FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) — เกณฑ์เกิด New Type, อัตราต่อ 100 ผู้ติดเชื้อ Stage 3, funnel 20→8+12, สเปก VT-01..05, test/telemetry; รอ DEC-008/DEC-009
 
+**Feature spec (Draft):** [GD-FANS-004 — Regeneration Speed Model](FANS-26_CELL_TISSUE_FUNCTION_REGENERATION_SPEED_MODEL_v1_TH.md) — แยก CPM/TRR/FIR, เพดาน 180×, tier RG-I..V, resource debt และ functional recovery gate; รอ DEC-010
+
 ใช้เก็บกติกา ประสบการณ์ผู้เล่น ระบบจำลอง การพึ่งพากันของระบบ และการทดลองสมดุล GDD เป็นเอกสารแม่; feature spec ที่เพิ่มภายหลังควรลิงก์หัวข้อที่เกี่ยวข้องและระบุส่วนที่ขยายหรือแทนที่
 
 ## แผนที่หัวข้อใน GDD

@@ -51,6 +51,8 @@
 
 - **GD-FANS-003 (Draft):** [Regenerative Instability & Infected Variants — Game Design](02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) — สัดส่วน New Type 8% ต่อ 100 Stage-3, 5 รูปแบบ, failure, gating และ QA; pending DEC-008/009
 
+- **GD-FANS-004 (Draft):** [Cell / Tissue / Function Regeneration Speed](02-game-design/FANS-26_CELL_TISSUE_FUNCTION_REGENERATION_SPEED_MODEL_v1_TH.md) — แยก CPM/TRR/FIR, อ้างอิงวิทยาศาสตร์, tier RG-I..V และ resource ceiling; pending DEC-010
+
 ## 📁 สารบัญโครงสร้าง Repository (Directory Map)
 
 ```text
