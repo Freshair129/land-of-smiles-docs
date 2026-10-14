@@ -6,6 +6,8 @@
 
 **Feature spec ที่รอ review:** [GD-FANS-001 — Dual-Agent Thirst & Behavioral Crisis](FANS-26_DUAL_AGENT_BEHAVIOR_SPEC_TH.md) — วงจรกระหายจริง/สมองเสื่อม/การลงน้ำ/การกัด/การคัดกรอง และ acceptance criteria ที่ใช้กับ S9
 
+**Feature spec ใหม่ (Draft):** [GD-FANS-003 — Regenerative Instability & Infected Variants](FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) — เกณฑ์เกิด New Type, อัตราต่อ 100 ผู้ติดเชื้อ Stage 3, funnel 20→8+12, สเปก VT-01..05, test/telemetry; รอ DEC-008/DEC-009
+
 ใช้เก็บกติกา ประสบการณ์ผู้เล่น ระบบจำลอง การพึ่งพากันของระบบ และการทดลองสมดุล GDD เป็นเอกสารแม่; feature spec ที่เพิ่มภายหลังควรลิงก์หัวข้อที่เกี่ยวข้องและระบุส่วนที่ขยายหรือแทนที่
 
 ## แผนที่หัวข้อใน GDD

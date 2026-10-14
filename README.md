@@ -49,6 +49,8 @@
 
 ---
 
+- **GD-FANS-003 (Draft):** [Regenerative Instability & Infected Variants — Game Design](02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) — สัดส่วน New Type 8% ต่อ 100 Stage-3, 5 รูปแบบ, failure, gating และ QA; pending DEC-008/009
+
 ## 📁 สารบัญโครงสร้าง Repository (Directory Map)
 
 ```text
