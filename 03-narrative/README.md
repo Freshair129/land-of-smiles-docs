@@ -6,6 +6,8 @@
 
 **Lore proposal เพิ่มเติม:** [FANS-26 — Dual-Agent Infection: The Thirst That Drowns](FANS-26_DUAL_AGENT_THIRST_LORE_TH.md) — ปรสิต P-08 + ไวรัส V-26, อาการขาดน้ำจริง, สมองเสื่อม, ผู้ติดเชื้อกัดกันเอง และประเด็นชนิดเชื้อที่รอ DEC-007
 
+**Clinical reference (Draft):** [FANS-26 Clinical Syndrome & Surveillance Case Definition](FANS-26_CLINICAL_CASE_DEFINITION_v1_TH.md) — WHO-inspired case statuses C00–C40, symptoms, stage S01–S04, severity, triage และ report (ไม่ใช่รหัสหรือโรคที่ WHO รับรอง)
+
 ใช้เก็บ world bible, timeline, ตัวละคร กลุ่มอำนาจ บทสนทนา และเนื้อหาเหตุการณ์ โดยแยก **Canon**, **สมมติฐานที่ตัวละครเชื่อ** และ **ข้อเสนอของผู้เขียน** ออกจากกัน
 
 | ต้องการอ่าน | ส่วนใน Story Canon |
