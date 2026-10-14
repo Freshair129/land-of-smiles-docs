@@ -1,0 +1,868 @@
+{
+  "samples": [
+    {
+      "audio": {
+        "audioContext": "running",
+        "audioCues": "0",
+        "audioEnabled": "true",
+        "audioRms": "0.006324",
+        "audioVolume": "0.25"
+      },
+      "canvas": {
+        "ambientRevision": "s9-life-v064",
+        "ambientTime": "0.217",
+        "drawCalls": "267",
+        "engine": "three.js r170",
+        "foliage": "156",
+        "frames": "831",
+        "lighting": "s9-neutral-daylight-v063",
+        "passengers": "2",
+        "pedestrianX": "-99.816",
+        "pedestrians": "12",
+        "traffic": "6",
+        "train0": "{\"phase\":\"approach\",\"x\":-7.728,\"speed\":3.833,\"door\":0}",
+        "train1": "{\"phase\":\"depart\",\"x\":-79.928,\"speed\":12.327,\"door\":0}",
+        "trainRevision": "s9-trains-v065",
+        "trainTime": "19.968",
+        "vehicleX": "102.592",
+        "windTime": "0.217"
+      },
+      "clock": "DAY 12 · 06:05",
+      "food": "13",
+      "parts": "40",
+      "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+      "stocks": [
+        "P1 · จุดอาหาร 24/24",
+        "P3 · จุดน้ำ 24/24",
+        "P6 · จุดน้ำ 24/24",
+        "P9 · จุดอาหาร 24/24",
+        "P10 · จุดน้ำ 24/24",
+        "P5 · จุดอาหาร 24/24"
+      ],
+      "trainStatus": "1: กำลังเข้าสถานี · 2: ออกจากสถานี",
+      "water": "6",
+      "workers": [
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "-0.800,10.490,-2.500",
+          "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+          "worker": "0"
+        },
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "0.000,10.490,-2.500",
+          "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+          "worker": "1"
+        },
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "0.800,10.490,-2.500",
+          "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+          "worker": "2"
+        }
+      ]
+    },
+    {
+      "audio": {
+        "audioContext": "running",
+        "audioCues": "1",
+        "audioEnabled": "true",
+        "audioRms": "0.000799",
+        "audioVolume": "0.25"
+      },
+      "canvas": {
+        "ambientRevision": "s9-life-v064",
+        "ambientTime": "0.217",
+        "drawCalls": "199",
+        "engine": "three.js r170",
+        "foliage": "156",
+        "frames": "1722",
+        "lighting": "s9-neutral-daylight-v063",
+        "passengers": "2",
+        "pedestrianX": "-99.816",
+        "pedestrians": "12",
+        "traffic": "6",
+        "train0": "{\"phase\":\"dwell\",\"x\":0,\"speed\":0,\"door\":1}",
+        "train1": "{\"phase\":\"away\",\"x\":-154,\"speed\":0,\"door\":0}",
+        "trainRevision": "s9-trains-v065",
+        "trainTime": "34.869",
+        "vehicleX": "102.592",
+        "windTime": "0.217"
+      },
+      "clock": "DAY 12 · 06:05",
+      "food": "13",
+      "parts": "40",
+      "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+      "stocks": [
+        "P1 · จุดอาหาร 24/24",
+        "P3 · จุดน้ำ 24/24",
+        "P6 · จุดน้ำ 24/24",
+        "P9 · จุดอาหาร 24/24",
+        "P10 · จุดน้ำ 24/24",
+        "P5 · จุดอาหาร 24/24"
+      ],
+      "trainStatus": "1: รับ–ส่งผู้โดยสาร · 2: พ้นสถานี",
+      "water": "6",
+      "workers": [
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "-0.800,10.490,-2.500",
+          "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+          "worker": "0"
+        },
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "0.000,10.490,-2.500",
+          "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+          "worker": "1"
+        },
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "0.800,10.490,-2.500",
+          "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+          "worker": "2"
+        }
+      ]
+    },
+    {
+      "audio": {
+        "audioContext": "running",
+        "audioCues": "2",
+        "audioEnabled": "true",
+        "audioRms": "0.007026",
+        "audioVolume": "0.25"
+      },
+      "canvas": {
+        "ambientRevision": "s9-life-v064",
+        "ambientTime": "0.217",
+        "drawCalls": "193",
+        "engine": "three.js r170",
+        "foliage": "156",
+        "frames": "3271",
+        "lighting": "s9-neutral-daylight-v063",
+        "passengers": "2",
+        "pedestrianX": "-99.816",
+        "pedestrians": "12",
+        "traffic": "6",
+        "train0": "{\"phase\":\"depart\",\"x\":89.482,\"speed\":13.043,\"door\":0}",
+        "train1": "{\"phase\":\"approach\",\"x\":5.111,\"speed\":3.117,\"door\":0}",
+        "trainRevision": "s9-trains-v065",
+        "trainTime": "60.721",
+        "vehicleX": "102.592",
+        "windTime": "0.217"
+      },
+      "clock": "DAY 12 · 06:05",
+      "food": "13",
+      "parts": "40",
+      "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+      "stocks": [
+        "P1 · จุดอาหาร 24/24",
+        "P3 · จุดน้ำ 24/24",
+        "P6 · จุดน้ำ 24/24",
+        "P9 · จุดอาหาร 24/24",
+        "P10 · จุดน้ำ 24/24",
+        "P5 · จุดอาหาร 24/24"
+      ],
+      "trainStatus": "1: ออกจากสถานี · 2: กำลังเข้าสถานี",
+      "water": "6",
+      "workers": [
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "-0.800,10.490,-2.500",
+          "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+          "worker": "0"
+        },
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "0.000,10.490,-2.500",
+          "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+          "worker": "1"
+        },
+        {
+          "floor": "concourse",
+          "phase": "idle",
+          "position": "0.800,10.490,-2.500",
+          "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+          "worker": "2"
+        }
+      ]
+    }
+  ],
+  "pausedA": {
+    "audio": {
+      "audioContext": "running",
+      "audioCues": "2",
+      "audioEnabled": "true",
+      "audioRms": "0.003395",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.217",
+      "drawCalls": "193",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "3276",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-99.816",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"depart\",\"x\":90.573,\"speed\":13.123,\"door\":0}",
+      "train1": "{\"phase\":\"approach\",\"x\":4.854,\"speed\":3.038,\"door\":0}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "60.804",
+      "vehicleX": "102.592",
+      "windTime": "0.217"
+    },
+    "clock": "DAY 12 · 06:05",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "trainStatus": "1: ออกจากสถานี · 2: กำลังเข้าสถานี",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "pausedB": {
+    "audio": {
+      "audioContext": "running",
+      "audioCues": "2",
+      "audioEnabled": "true",
+      "audioRms": "0.000811",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.217",
+      "drawCalls": "193",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "3276",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-99.816",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"depart\",\"x\":90.573,\"speed\":13.123,\"door\":0}",
+      "train1": "{\"phase\":\"approach\",\"x\":4.854,\"speed\":3.038,\"door\":0}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "60.804",
+      "vehicleX": "102.592",
+      "windTime": "0.217"
+    },
+    "clock": "DAY 12 · 06:05",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "trainStatus": "1: ออกจากสถานี · 2: กำลังเข้าสถานี",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "zeroVolume": {
+    "audio": {
+      "audioContext": "running",
+      "audioCues": "4",
+      "audioEnabled": "true",
+      "audioRms": "0.000000",
+      "audioVolume": "0"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.217",
+      "drawCalls": "265",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "5727",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-99.816",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"approach\",\"x\":-2.759,\"speed\":2.29,\"door\":0}",
+      "train1": "{\"phase\":\"depart\",\"x\":-101.186,\"speed\":13.87,\"door\":0}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "101.591",
+      "vehicleX": "102.592",
+      "windTime": "0.217"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: กำลังเข้าสถานี · 2: ออกจากสถานี",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "beforeReload": {
+    "audio": {
+      "audioContext": "suspended",
+      "audioCues": "4",
+      "audioEnabled": "false",
+      "audioRms": "0.000544",
+      "audioVolume": "0.11"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.217",
+      "drawCalls": "264",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "5738",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-99.816",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"approach\",\"x\":-2.356,\"speed\":2.116,\"door\":0}",
+      "train1": "{\"phase\":\"depart\",\"x\":-103.743,\"speed\":14.044,\"door\":0}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "101.774",
+      "vehicleX": "102.592",
+      "windTime": "0.217"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: กำลังเข้าสถานี · 2: ออกจากสถานี",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "afterReload": {
+    "audio": {
+      "audioContext": "uncreated",
+      "audioCues": "0",
+      "audioEnabled": "false",
+      "audioError": "",
+      "audioRms": "0.000000",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.000",
+      "drawCalls": "338",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "3",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"approach\",\"x\":-151.728,\"speed\":16.984,\"door\":0}",
+      "train1": "{\"phase\":\"ready\",\"x\":0,\"speed\":0,\"door\":0}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "6.133",
+      "vehicleX": "-104.000",
+      "windTime": "0.000"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: กำลังเข้าสถานี · 2: เตรียมออก",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "finalSound": {
+    "audio": {
+      "audioContext": "running",
+      "audioCues": "4",
+      "audioEnabled": "true",
+      "audioError": "",
+      "audioRms": "0.000694",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.000",
+      "drawCalls": "196",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "4523",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"waiting\",\"x\":-154,\"speed\":0,\"door\":0}",
+      "train1": "{\"phase\":\"warning\",\"x\":0,\"speed\":0,\"door\":1}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "81.489",
+      "vehicleX": "-104.000",
+      "windTime": "0.000"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: รอขบวน · 2: โปรดระวัง ประตูกำลังปิด",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "cutawayA": {
+    "audio": {
+      "audioContext": "running",
+      "audioCues": "4",
+      "audioEnabled": "true",
+      "audioError": "",
+      "audioRms": "0.000172",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.000",
+      "drawCalls": "179",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "4525",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"waiting\",\"x\":-154,\"speed\":0,\"door\":0}",
+      "train1": "{\"phase\":\"warning\",\"x\":0,\"speed\":0,\"door\":1}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "81.506",
+      "vehicleX": "-104.000",
+      "windTime": "0.000"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: รอขบวน · 2: โปรดระวัง ประตูกำลังปิด",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "cutawayB": {
+    "audio": {
+      "audioContext": "running",
+      "audioCues": "4",
+      "audioEnabled": "true",
+      "audioError": "",
+      "audioRms": "0.000000",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.000",
+      "drawCalls": "179",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "4525",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"waiting\",\"x\":-154,\"speed\":0,\"door\":0}",
+      "train1": "{\"phase\":\"warning\",\"x\":0,\"speed\":0,\"door\":1}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "81.506",
+      "vehicleX": "-104.000",
+      "windTime": "0.000"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: รอขบวน · 2: โปรดระวัง ประตูกำลังปิด",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "closing": {
+    "audio": {
+      "audioContext": "running",
+      "audioCues": "4",
+      "audioEnabled": "true",
+      "audioError": "",
+      "audioRms": "0.000700",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.000",
+      "drawCalls": "196",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "4617",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"waiting\",\"x\":-154,\"speed\":0,\"door\":0}",
+      "train1": "{\"phase\":\"closing\",\"x\":0,\"speed\":0,\"door\":0.98}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "83.039",
+      "vehicleX": "-104.000",
+      "windTime": "0.000"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: รอขบวน · 2: กำลังปิดประตู",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "muted": {
+    "audio": {
+      "audioContext": "suspended",
+      "audioCues": "4",
+      "audioEnabled": "false",
+      "audioError": "",
+      "audioRms": "0.000000",
+      "audioVolume": "0.25"
+    },
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "0.000",
+      "drawCalls": "199",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "10802",
+      "lighting": "s9-neutral-daylight-v063",
+      "passengers": "2",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "train0": "{\"phase\":\"opening\",\"x\":0,\"speed\":0,\"door\":0.065}",
+      "train1": "{\"phase\":\"away\",\"x\":-154,\"speed\":0,\"door\":0}",
+      "trainRevision": "s9-trains-v065",
+      "trainTime": "186.130",
+      "vehicleX": "-104.000",
+      "windTime": "0.000"
+    },
+    "clock": "DAY 12 · 08:48",
+    "food": "13",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 64 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24"
+    ],
+    "trainStatus": "1: กำลังเปิดประตู · 2: พ้นสถานี",
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "logs": [],
+  "checks": {
+    "pausePreservesTime": true,
+    "cutawayPreservesTime": true,
+    "cutawaySilent": true,
+    "zeroVolumeSilent": true,
+    "soundSignal": true,
+    "chimesTriggered": true,
+    "mutedSuspended": true,
+    "saveRestoresGameplay": true,
+    "openAtRest": true,
+    "closingAtRest": true
+  }
+}

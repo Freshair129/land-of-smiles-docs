@@ -1,0 +1,499 @@
+{
+  "motionA": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "18.085",
+      "drawCalls": "381",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "1081",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-84.628",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "-13.551",
+      "windTime": "18.085"
+    },
+    "clock": "DAY 12 · 00:49",
+    "food": "13",
+    "motion": true,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 49 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "motionB": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "39.003",
+      "drawCalls": "368",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "2336",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-99.962",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "58.482",
+      "windTime": "39.003"
+    },
+    "clock": "DAY 12 · 00:49",
+    "food": "13",
+    "motion": true,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 49 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "stoppedA": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "39.053",
+      "drawCalls": "368",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "2339",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "58.157",
+      "windTime": "39.053"
+    },
+    "clock": "DAY 12 · 00:49",
+    "food": "13",
+    "motion": false,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 49 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "stoppedB": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "39.053",
+      "drawCalls": "304",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "2344",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-100.000",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "58.157",
+      "windTime": "39.053"
+    },
+    "clock": "DAY 12 · 00:49",
+    "food": "37",
+    "motion": false,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 49 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P9 · จุดอาหาร 0/24",
+      "P10 · จุดน้ำ 0/24"
+    ],
+    "water": "30",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "beforeReload": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "69.822",
+      "drawCalls": "371",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "4193",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-91.778",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "66.159",
+      "windTime": "69.822"
+    },
+    "clock": "DAY 12 · 02:51",
+    "food": "37",
+    "motion": true,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 55 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 0/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "back",
+        "position": "48.000,10.400,12.473",
+        "text": "คนที่ 1 · กลับคลังโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "back",
+        "position": "48.000,10.400,13.223",
+        "text": "คนที่ 2 · กลับคลังโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "back",
+        "position": "48.000,10.400,14.423",
+        "text": "คนที่ 3 · กลับคลังโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "afterReload": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "14.834",
+      "drawCalls": "485",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "880",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-87.391",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "7.576",
+      "windTime": "14.834"
+    },
+    "clock": "DAY 12 · 02:51",
+    "food": "37",
+    "motion": true,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 55 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 0/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "back",
+        "position": "48.000,10.400,12.473",
+        "text": "คนที่ 1 · กลับคลังโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "back",
+        "position": "48.000,10.400,13.223",
+        "text": "คนที่ 2 · กลับคลังโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "back",
+        "position": "48.000,10.400,14.423",
+        "text": "คนที่ 3 · กลับคลังโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "delivery": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "63.271",
+      "drawCalls": "482",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "3783",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-86.211",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "-99.264",
+      "windTime": "63.271"
+    },
+    "clock": "DAY 12 · 06:05",
+    "food": "13",
+    "motion": true,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "interiorA": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "109.592",
+      "drawCalls": "179",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "6563",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-91.203",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "15.655",
+      "windTime": "109.592"
+    },
+    "clock": "DAY 12 · 06:05",
+    "food": "13",
+    "motion": true,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "interiorB": {
+    "canvas": {
+      "ambientRevision": "s9-life-v064",
+      "ambientTime": "109.592",
+      "drawCalls": "179",
+      "engine": "three.js r170",
+      "foliage": "156",
+      "frames": "6563",
+      "lighting": "s9-neutral-daylight-v063",
+      "pedestrianX": "-91.203",
+      "pedestrians": "12",
+      "traffic": "6",
+      "vehicleX": "15.655",
+      "windTime": "109.592"
+    },
+    "clock": "DAY 12 · 06:05",
+    "food": "13",
+    "motion": true,
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 58 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "water": "6",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "logs": [],
+  "checks": {
+    "motionAdvances": true,
+    "personMoves": true,
+    "vehicleMoves": true,
+    "gameClockRemainsPaused": true,
+    "toggleFreezes": true,
+    "interiorFreezes": true,
+    "interiorStopsRendering": true,
+    "saveRestoresGameplay": true
+  }
+}

@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: visual revision preserves v0.6 navigation, sockets and save layout exactly
+ok 1 - visual revision preserves v0.6 navigation, sockets and save layout exactly
+  ---
+  duration_ms: 14.9019
+  type: 'test'
+  ...
+# Subtest: weathered materials are bound to rendered meshes with UVs and embedded images
+ok 2 - weathered materials are bound to rendered meshes with UVs and embedded images
+  ---
+  duration_ms: 0.7557
+  type: 'test'
+  ...
+# Subtest: roof details and signs have correct cutaway visibility and head clearance
+ok 3 - roof details and signs have correct cutaway visibility and head clearance
+  ---
+  duration_ms: 7.5288
+  type: 'test'
+  ...
+# Subtest: new detail bounds do not intersect a worker body along routes to all sockets and exits
+ok 4 - new detail bounds do not intersect a worker body along routes to all sockets and exits
+  ---
+  duration_ms: 1810.775
+  type: 'test'
+  ...
+# Subtest: actual exported v0.6 cargo save resumes deliveries on the detailed model
+ok 5 - actual exported v0.6 cargo save resumes deliveries on the detailed model
+  ---
+  duration_ms: 953.9752
+  type: 'test'
+  ...
+# Subtest: streetscape preserves the complete playable v0.6.1 manifest contract
+ok 6 - streetscape preserves the complete playable v0.6.1 manifest contract
+  ---
+  duration_ms: 5.6642
+  type: 'test'
+  ...
+# Subtest: all new scenery clears every walking surface and all stair links
+ok 7 - all new scenery clears every walking surface and all stair links
+  ---
+  duration_ms: 270.5641
+  type: 'test'
+  ...
+# Subtest: canal is recessed, road materials are textured and sources are attached to scenery
+ok 8 - canal is recessed, road materials are textured and sources are attached to scenery
+  ---
+  duration_ms: 16.6026
+  type: 'test'
+  ...
+# Subtest: scenery cutaways keep building masses and overhead wires out of elevated play views
+ok 9 - scenery cutaways keep building masses and overhead wires out of elevated play views
+  ---
+  duration_ms: 5.0075
+  type: 'test'
+  ...
+# Subtest: shop awnings extend horizontally and printed signs use non-metallic material
+ok 10 - shop awnings extend horizontally and printed signs use non-metallic material
+  ---
+  duration_ms: 1.4319
+  type: 'test'
+  ...
+# Subtest: deliveries to both street sockets and platform still conserve stock after scenery load
+ok 11 - deliveries to both street sockets and platform still conserve stock after scenery load
+  ---
+  duration_ms: 1776.2967
+  type: 'test'
+  ...
+# Subtest: runtime GLB and geometry manifest share hash, semantic floor tags and surface bounds
+ok 12 - runtime GLB and geometry manifest share hash, semantic floor tags and surface bounds
+  ---
+  duration_ms: 52.9874
+  type: 'test'
+  ...
+# Subtest: all ten sockets and four entrances connect; flat routes remain on geometry and avoid static obstacles
+ok 13 - all ten sockets and four entrances connect; flat routes remain on geometry and avoid static obstacles
+  ---
+  duration_ms: 781.8465
+  type: 'test'
+  ...
+# Subtest: every permitted item fits each socket; duplicate, wrong-floor and insufficient-parts operations are atomic
+ok 14 - every permitted item fits each socket; duplicate, wrong-floor and insufficient-parts operations are atomic
+  ---
+  duration_ms: 2870.6763
+  type: 'test'
+  ...
+# Subtest: placement rejects rooms, rail voids, stairs and the warehouse footprint
+ok 15 - placement rejects rooms, rail voids, stairs and the warehouse footprint
+  ---
+  duration_ms: 676.1821
+  type: 'test'
+  ...
+# Subtest: one worker transfers exactly 8 from a stock of 16, without creating inventory
+ok 16 - one worker transfers exactly 8 from a stock of 16, without creating inventory
+  ---
+  duration_ms: 691.0759
+  type: 'test'
+  ...
+# Subtest: concurrent reservations cap destinations, and deliveries reach both platform and street
+ok 17 - concurrent reservations cap destinations, and deliveries reach both platform and street
+  ---
+  duration_ms: 717.3848
+  type: 'test'
+  ...
+# Subtest: unreachable jobs do not pick up or deliver; blocked workers keep cargo then resume safely
+ok 18 - unreachable jobs do not pick up or deliver; blocked workers keep cargo then resume safely
+  ---
+  duration_ms: 824.8668
+  type: 'test'
+  ...
+# Subtest: removal during a delivery returns cargo and stock; adding equipment replans without teleportation
+ok 19 - removal during a delivery returns cargo and stock; adding equipment replans without teleportation
+  ---
+  duration_ms: 822.4449
+  type: 'test'
+  ...
+# Subtest: pause freezes state; a fixed timestep makes 2x and different frame sizes equivalent
+ok 20 - pause freezes state; a fixed timestep makes 2x and different frame sizes equivalent
+  ---
+  duration_ms: 2210.6852
+  type: 'test'
+  ...
+# Subtest: save/reload on the stairs preserves position, cargo and economy and completes the job
+ok 21 - save/reload on the stairs preserves position, cargo and economy and completes the job
+  ---
+  duration_ms: 1429.404
+  type: 'test'
+  ...
+# Subtest: corrupt saves are rejected without partial replacement
+ok 22 - corrupt saves are rejected without partial replacement
+  ---
+  duration_ms: 657.3083
+  type: 'test'
+  ...
+# Subtest: v0.5 migration relocates socket IDs, preserves balances and rejects malformed legacy data
+ok 23 - v0.5 migration relocates socket IDs, preserves balances and rejects malformed legacy data
+  ---
+  duration_ms: 703.7884
+  type: 'test'
+  ...
+# Subtest: daily consumption is recorded in the inventory ledger
+ok 24 - daily consumption is recorded in the inventory ledger
+  ---
+  duration_ms: 602.0295
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 13459.8234

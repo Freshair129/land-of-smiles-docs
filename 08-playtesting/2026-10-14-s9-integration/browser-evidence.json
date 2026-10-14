@@ -1,0 +1,144 @@
+{
+  "pause": {
+    "seconds": 38.147,
+    "unchanged": true
+  },
+  "reloadMatches": true,
+  "completedDeliveries": 12,
+  "restoredState": {
+    "clock": "DAY 10 · 10:04",
+    "food": "47",
+    "parts": "80",
+    "progress": "ติดตั้ง 4/10 · ส่งแล้ว 12 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P5 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24"
+    ],
+    "water": "42",
+    "workers": [
+      {
+        "id": "0",
+        "phase": "back",
+        "position": "-28.387,10.490,-7.000"
+      },
+      {
+        "id": "1",
+        "phase": "back",
+        "position": "-30.768,10.490,-7.768"
+      },
+      {
+        "id": "2",
+        "phase": "back",
+        "position": "-33.208,10.490,-10.208"
+      }
+    ]
+  },
+  "raycastPlacement": {
+    "socket": "P3",
+    "beforeParts": 142,
+    "afterParts": 120
+  },
+  "initialPlacement": {
+    "socket": "P1",
+    "beforeParts": 160,
+    "afterParts": 142,
+    "duplicateDisabled": true
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "socket": "P2",
+    "type": "clinic",
+    "partsAfter": "45"
+  },
+  "cargoSaveReload": {
+    "matches": true,
+    "state": {
+      "clock": "DAY 10 · 10:14",
+      "food": "47",
+      "parts": "58",
+      "progress": "ติดตั้ง 5/10 · ส่งแล้ว 12 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+      "stocks": [
+        "P1 · จุดอาหาร 24/24",
+        "P3 · จุดน้ำ 24/24",
+        "P5 · จุดน้ำ 24/24",
+        "P9 · จุดอาหาร 24/24",
+        "P10 · จุดน้ำ 0/24"
+      ],
+      "water": "34",
+      "workers": [
+        {
+          "id": "0",
+          "phase": "out",
+          "position": "0.261,10.490,-3.000"
+        },
+        {
+          "id": "1",
+          "phase": "back",
+          "position": "-1.529,10.490,-3.529"
+        },
+        {
+          "id": "2",
+          "phase": "back",
+          "position": "-4.129,10.490,-4.000"
+        }
+      ]
+    },
+    "balance": "กำลังขน 8 หน่วย · หักจากคลังก่อนออกเดิน · เติมเมื่อถึงจุดแจก"
+  },
+  "finalState": {
+    "clock": "DAY 10 · 21:22",
+    "food": "47",
+    "parts": "58",
+    "progress": "ติดตั้ง 5/10 · ส่งแล้ว 15 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P5 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24"
+    ],
+    "water": "18",
+    "workers": [
+      {
+        "id": "0",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500"
+      },
+      {
+        "id": "1",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500"
+      },
+      {
+        "id": "2",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500"
+      }
+    ]
+  },
+  "cargoResumeDelivered": true,
+  "consoleErrorsSinceFix": [],
+  "camera": {
+    "orbitAndZoom": "visually verified",
+    "allViewSocketButtons": 0
+  },
+  "playerDelivery": {
+    "url": "http://127.0.0.1:8765/src/",
+    "title": "LAND OF SMILES — S9 First Shelter v0.6",
+    "ready": "S9 พร้อมเล่น · โมเดลอ้างอิงภาพจริง",
+    "metrics": {
+      "food": "95",
+      "parts": "160",
+      "progress": "ติดตั้ง 0/10 · ส่งแล้ว 0 เที่ยว",
+      "water": "90"
+    },
+    "console": [],
+    "refreshedCachedV05Page": true,
+    "screenshot": "player-ready.jpg"
+  }
+}

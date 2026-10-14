@@ -1,0 +1,256 @@
+TAP version 13
+# Subtest: visual revision preserves v0.6 navigation, sockets and save layout exactly
+ok 1 - visual revision preserves v0.6 navigation, sockets and save layout exactly
+  ---
+  duration_ms: 14.7934
+  type: 'test'
+  ...
+# Subtest: weathered materials are bound to rendered meshes with UVs and embedded images
+ok 2 - weathered materials are bound to rendered meshes with UVs and embedded images
+  ---
+  duration_ms: 0.7714
+  type: 'test'
+  ...
+# Subtest: roof details and signs have correct cutaway visibility and head clearance
+ok 3 - roof details and signs have correct cutaway visibility and head clearance
+  ---
+  duration_ms: 4.1743
+  type: 'test'
+  ...
+# Subtest: new detail bounds do not intersect a worker body along routes to all sockets and exits
+ok 4 - new detail bounds do not intersect a worker body along routes to all sockets and exits
+  ---
+  duration_ms: 1864.1383
+  type: 'test'
+  ...
+# Subtest: actual exported v0.6 cargo save resumes deliveries on the detailed model
+ok 5 - actual exported v0.6 cargo save resumes deliveries on the detailed model
+  ---
+  duration_ms: 781.8306
+  type: 'test'
+  ...
+# Subtest: streetscape preserves the complete playable v0.6.1 manifest contract
+ok 6 - streetscape preserves the complete playable v0.6.1 manifest contract
+  ---
+  duration_ms: 9.0566
+  type: 'test'
+  ...
+# Subtest: all new scenery clears every walking surface and all stair links
+ok 7 - all new scenery clears every walking surface and all stair links
+  ---
+  duration_ms: 304.1388
+  type: 'test'
+  ...
+# Subtest: canal is recessed, road materials are textured and sources are attached to scenery
+ok 8 - canal is recessed, road materials are textured and sources are attached to scenery
+  ---
+  duration_ms: 9.0075
+  type: 'test'
+  ...
+# Subtest: scenery cutaways keep building masses and overhead wires out of elevated play views
+ok 9 - scenery cutaways keep building masses and overhead wires out of elevated play views
+  ---
+  duration_ms: 5.6281
+  type: 'test'
+  ...
+# Subtest: shop awnings extend horizontally and printed signs use non-metallic material
+ok 10 - shop awnings extend horizontally and printed signs use non-metallic material
+  ---
+  duration_ms: 1.6529
+  type: 'test'
+  ...
+# Subtest: deliveries to both street sockets and platform still conserve stock after scenery load
+ok 11 - deliveries to both street sockets and platform still conserve stock after scenery load
+  ---
+  duration_ms: 1817.9951
+  type: 'test'
+  ...
+# Subtest: runtime GLB and geometry manifest share hash, semantic floor tags and surface bounds
+ok 12 - runtime GLB and geometry manifest share hash, semantic floor tags and surface bounds
+  ---
+  duration_ms: 73.345
+  type: 'test'
+  ...
+# Subtest: all ten sockets and four entrances connect; flat routes remain on geometry and avoid static obstacles
+ok 13 - all ten sockets and four entrances connect; flat routes remain on geometry and avoid static obstacles
+  ---
+  duration_ms: 856.2522
+  type: 'test'
+  ...
+# Subtest: every permitted item fits each socket; duplicate, wrong-floor and insufficient-parts operations are atomic
+ok 14 - every permitted item fits each socket; duplicate, wrong-floor and insufficient-parts operations are atomic
+  ---
+  duration_ms: 2658.312
+  type: 'test'
+  ...
+# Subtest: placement rejects rooms, rail voids, stairs and the warehouse footprint
+ok 15 - placement rejects rooms, rail voids, stairs and the warehouse footprint
+  ---
+  duration_ms: 641.2997
+  type: 'test'
+  ...
+# Subtest: one worker transfers exactly 8 from a stock of 16, without creating inventory
+ok 16 - one worker transfers exactly 8 from a stock of 16, without creating inventory
+  ---
+  duration_ms: 852.4601
+  type: 'test'
+  ...
+# Subtest: concurrent reservations cap destinations, and deliveries reach both platform and street
+ok 17 - concurrent reservations cap destinations, and deliveries reach both platform and street
+  ---
+  duration_ms: 1537.6656
+  type: 'test'
+  ...
+# Subtest: unreachable jobs do not pick up or deliver; blocked workers keep cargo then resume safely
+ok 18 - unreachable jobs do not pick up or deliver; blocked workers keep cargo then resume safely
+  ---
+  duration_ms: 2111.4062
+  type: 'test'
+  ...
+# Subtest: removal during a delivery returns cargo and stock; adding equipment replans without teleportation
+ok 19 - removal during a delivery returns cargo and stock; adding equipment replans without teleportation
+  ---
+  duration_ms: 1635.3091
+  type: 'test'
+  ...
+# Subtest: pause freezes state; a fixed timestep makes 2x and different frame sizes equivalent
+ok 20 - pause freezes state; a fixed timestep makes 2x and different frame sizes equivalent
+  ---
+  duration_ms: 3730.8817
+  type: 'test'
+  ...
+# Subtest: save/reload on the stairs preserves position, cargo and economy and completes the job
+ok 21 - save/reload on the stairs preserves position, cargo and economy and completes the job
+  ---
+  duration_ms: 1797.596
+  type: 'test'
+  ...
+# Subtest: corrupt saves are rejected without partial replacement
+ok 22 - corrupt saves are rejected without partial replacement
+  ---
+  duration_ms: 874.3986
+  type: 'test'
+  ...
+# Subtest: v0.5 migration relocates socket IDs, preserves balances and rejects malformed legacy data
+ok 23 - v0.5 migration relocates socket IDs, preserves balances and rejects malformed legacy data
+  ---
+  duration_ms: 715.5976
+  type: 'test'
+  ...
+# Subtest: daily consumption is recorded in the inventory ledger
+ok 24 - daily consumption is recorded in the inventory ledger
+  ---
+  duration_ms: 677.0901
+  type: 'test'
+  ...
+# Subtest: entire swept routes clear playable floors, stairs, sockets and static street furniture
+ok 25 - entire swept routes clear playable floors, stairs, sockets and static street furniture
+  ---
+  duration_ms: 193.2478
+  type: 'test'
+  ...
+# Subtest: walking loops remain continuous; opposing traffic maintains gaps over multiple wraps
+ok 26 - walking loops remain continuous; opposing traffic maintains gaps over multiple wraps
+  ---
+  duration_ms: 17.5832
+  type: 'test'
+  ...
+# Subtest: ambient clock freezes on toggle, hidden tab and interior cutaways, without catch-up
+ok 27 - ambient clock freezes on toggle, hidden tab and interior cutaways, without catch-up
+  ---
+  duration_ms: 0.6697
+  type: 'test'
+  ...
+# Subtest: maximum shader flutter envelope clears all walk surfaces and stair headroom
+ok 28 - maximum shader flutter envelope clears all walk surfaces and stair headroom
+  ---
+  duration_ms: 68.2797
+  type: 'test'
+  ...
+# Subtest: ambient motion leaves save contract, placement and three-floor delivery unchanged
+ok 29 - ambient motion leaves save contract, placement and three-floor delivery unchanged
+  ---
+  duration_ms: 3560.1464
+  type: 'test'
+  ...
+# Subtest: realism pass retains the whole playable contract and every existing obstacle
+ok 30 - realism pass retains the whole playable contract and every existing obstacle
+  ---
+  duration_ms: 14.7169
+  type: 'test'
+  ...
+# Subtest: all tree crowns use masked, two-sided leaf geometry within old canopy envelopes
+ok 31 - all tree crowns use masked, two-sided leaf geometry within old canopy envelopes
+  ---
+  duration_ms: 1.562
+  type: 'test'
+  ...
+# Subtest: buildings have beveled geometry, opaque varied glazing and physically bound material maps
+ok 32 - buildings have beveled geometry, opaque varied glazing and physically bound material maps
+  ---
+  duration_ms: 4.6865
+  type: 'test'
+  ...
+# Subtest: new branches, roof details and canopies do not obstruct walking or stair headroom
+ok 33 - new branches, roof details and canopies do not obstruct walking or stair headroom
+  ---
+  duration_ms: 43.1057
+  type: 'test'
+  ...
+# Subtest: station audio is opt-in, reuses one context, cues once per transition and suspends on mute
+ok 34 - station audio is opt-in, reuses one context, cues once per transition and suspends on mute
+  ---
+  duration_ms: 9.556
+  type: 'test'
+  ...
+# Subtest: unsupported audio fails visibly and remains disabled across frame updates
+ok 35 - unsupported audio fails visibly and remains disabled across frame updates
+  ---
+  duration_ms: 0.3887
+  type: 'test'
+  ...
+# Subtest: both trains stop before doors open and close completely before departure over repeated cycles
+ok 36 - both trains stop before doors open and close completely before departure over repeated cycles
+  ---
+  duration_ms: 21.2993
+  type: 'test'
+  ...
+# Subtest: passengers cross the sill only during fully open dwell, alighting before boarding
+ok 37 - passengers cross the sill only during fully open dwell, alighting before boarding
+  ---
+  duration_ms: 11.1885
+  type: 'test'
+  ...
+# Subtest: rail adjustment affects only track components; trains clear platforms and overhead structure
+ok 38 - rail adjustment affects only track components; trains clear platforms and overhead structure
+  ---
+  duration_ms: 29.3525
+  type: 'test'
+  ...
+# Subtest: boarding pockets avoid equipment, stair links and every warehouse delivery route
+ok 39 - boarding pockets avoid equipment, stair links and every warehouse delivery route
+  ---
+  duration_ms: 862.689
+  type: 'test'
+  ...
+# Subtest: train pause/cutaway guards preserve phase; sound follows speed and door phase
+ok 40 - train pause/cutaway guards preserve phase; sound follows speed and door phase
+  ---
+  duration_ms: 0.5851
+  type: 'test'
+  ...
+# Subtest: train layer retains manifest and saved supply balance
+ok 41 - train layer retains manifest and saved supply balance
+  ---
+  duration_ms: 904.4785
+  type: 'test'
+  ...
+1..41
+# tests 41
+# suites 0
+# pass 41
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 18369.4248

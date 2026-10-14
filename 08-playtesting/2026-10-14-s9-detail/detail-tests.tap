@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: visual revision preserves v0.6 navigation, sockets and save layout exactly
+ok 1 - visual revision preserves v0.6 navigation, sockets and save layout exactly
+  ---
+  duration_ms: 7.5016
+  type: 'test'
+  ...
+# Subtest: weathered materials are bound to rendered meshes with UVs and embedded images
+ok 2 - weathered materials are bound to rendered meshes with UVs and embedded images
+  ---
+  duration_ms: 0.3723
+  type: 'test'
+  ...
+# Subtest: roof details and signs have correct cutaway visibility and head clearance
+ok 3 - roof details and signs have correct cutaway visibility and head clearance
+  ---
+  duration_ms: 1.7959
+  type: 'test'
+  ...
+# Subtest: new detail bounds do not intersect a worker body along routes to all sockets and exits
+ok 4 - new detail bounds do not intersect a worker body along routes to all sockets and exits
+  ---
+  duration_ms: 1096.5274
+  type: 'test'
+  ...
+# Subtest: actual exported v0.6 cargo save resumes deliveries on the detailed model
+ok 5 - actual exported v0.6 cargo save resumes deliveries on the detailed model
+  ---
+  duration_ms: 625.2131
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1882.2527

@@ -1,0 +1,213 @@
+{
+  "revision": "s9-detail-v061",
+  "loadedV06QaSave": true,
+  "initial": {
+    "trips": 15,
+    "food": 47,
+    "water": 18,
+    "parts": 58
+  },
+  "loaded": {
+    "batches": "165",
+    "meshes": "3741",
+    "ready": "true",
+    "revision": "s9-detail-v061"
+  },
+  "cargoBeforeReload": {
+    "clock": "DAY 11 · 04:18",
+    "food": "18",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 26 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P10 · จุดน้ำ 0/24"
+    ],
+    "water": "12",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "2.892,10.490,-2.108",
+        "text": "คนที่ 1 · ไป P10โถง · ถือน้ำ 8",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "3.886,10.490,-2.000",
+        "text": "คนที่ 2 · ไป P10โถง · ถือน้ำ 8",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "4.847,10.490,-2.000",
+        "text": "คนที่ 3 · ไป P10โถง · ถือน้ำ 8",
+        "worker": "2"
+      }
+    ]
+  },
+  "cargoAfterReload": {
+    "clock": "DAY 11 · 04:18",
+    "food": "18",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 26 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P10 · จุดน้ำ 0/24"
+    ],
+    "water": "12",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "2.892,10.490,-2.108",
+        "text": "คนที่ 1 · ไป P10โถง · ถือน้ำ 8",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "3.886,10.490,-2.000",
+        "text": "คนที่ 2 · ไป P10โถง · ถือน้ำ 8",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "4.847,10.490,-2.000",
+        "text": "คนที่ 3 · ไป P10โถง · ถือน้ำ 8",
+        "worker": "2"
+      }
+    ]
+  },
+  "idleSaveBeforeReload": {
+    "clock": "DAY 11 · 00:33",
+    "food": "18",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 26 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P10 · จุดน้ำ 24/24"
+    ],
+    "water": "12",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "idleSaveAfterReload": {
+    "clock": "DAY 11 · 00:33",
+    "food": "18",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 26 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P10 · จุดน้ำ 24/24"
+    ],
+    "water": "12",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "final": {
+    "clock": "DAY 11 · 12:19",
+    "food": "18",
+    "parts": "40",
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 29 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P5 · จุดอาหาร 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P10 · จุดน้ำ 24/24"
+    ],
+    "water": "12",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "console": [],
+  "playerReady": {
+    "url": "http://127.0.0.1:8765/src/",
+    "title": "LAND OF SMILES — S9 First Shelter v0.6.1",
+    "revision": "s9-detail-v061",
+    "console": []
+  }
+}

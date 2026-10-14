@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "layoutId": "s9-gameplay-2026-10-14-v06",
+  "parts": 40,
+  "pop": 20,
+  "elapsed": 2449.2000000001444,
+  "remainder": 0.04640000000001859,
+  "trips": 49,
+  "warehouse": {
+    "food": 13,
+    "water": 6
+  },
+  "initial": {
+    "food": 95,
+    "water": 90
+  },
+  "used": {
+    "food": 10,
+    "water": 12
+  },
+  "objects": [
+    {
+      "socketId": "P1",
+      "type": "food",
+      "stock": 24
+    },
+    {
+      "socketId": "P3",
+      "type": "water",
+      "stock": 24
+    },
+    {
+      "socketId": "P6",
+      "type": "water",
+      "stock": 24
+    },
+    {
+      "socketId": "P9",
+      "type": "food",
+      "stock": 24
+    },
+    {
+      "socketId": "P10",
+      "type": "water",
+      "stock": 24
+    },
+    {
+      "socketId": "P5",
+      "type": "food",
+      "stock": 24
+    }
+  ],
+  "workers": [
+    {
+      "id": 0,
+      "position": {
+        "x": -0.8,
+        "y": 10.49,
+        "z": -2.5,
+        "floor": "concourse"
+      },
+      "phase": "idle",
+      "target": null,
+      "cargo": null,
+      "amount": 0,
+      "path": [],
+      "cursor": 0,
+      "blocked": null
+    },
+    {
+      "id": 1,
+      "position": {
+        "x": 0,
+        "y": 10.49,
+        "z": -2.5,
+        "floor": "concourse"
+      },
+      "phase": "idle",
+      "target": null,
+      "cargo": null,
+      "amount": 0,
+      "path": [],
+      "cursor": 0,
+      "blocked": null
+    },
+    {
+      "id": 2,
+      "position": {
+        "x": 0.8,
+        "y": 10.49,
+        "z": -2.5,
+        "floor": "concourse"
+      },
+      "phase": "idle",
+      "target": null,
+      "cargo": null,
+      "amount": 0,
+      "path": [],
+      "cursor": 0,
+      "blocked": null
+    }
+  ],
+  "paused": true,
+  "speed": 4,
+  "viewFloor": "all"
+}

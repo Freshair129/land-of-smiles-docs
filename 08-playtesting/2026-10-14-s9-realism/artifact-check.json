@@ -1,0 +1,25 @@
+{
+  "assetSha256": "d0bad3fc9a33cd3d0830511c337bebf6a3c25904a67c12dddbe9dca5934c2a3a",
+  "saveRestored": true,
+  "trips": 49,
+  "totals": {
+    "food": 95,
+    "water": 90
+  },
+  "initial": {
+    "food": 95,
+    "water": 90
+  },
+  "warehouse": {
+    "food": 13,
+    "water": 6
+  },
+  "used": {
+    "food": 10,
+    "water": 12
+  },
+  "objectsFull": 6,
+  "workersIdle": 3,
+  "localLinksChecked": 30,
+  "missing": []
+}

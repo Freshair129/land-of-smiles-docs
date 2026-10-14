@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-14",
+  "original_files_unchanged": {
+    "src/index.html": true,
+    "src/assets/pho_nimit_blockout.glb": true,
+    "src/pho_nimit_blockout.glb": true,
+    "src/station-manifest.json": true,
+    "src/README.md": true,
+    "docs/archive/2026-10-14-before-dec-001/LAND_OF_SMILES_GDD_v1_TH.md": true
+  },
+  "local_link_count": 197,
+  "broken_local_links": [],
+  "reference_photo_hashes": {
+    "REF-01": true,
+    "REF-02": true,
+    "REF-03": true,
+    "REF-04": true,
+    "REF-05": true,
+    "REF-06": true,
+    "REF-07": true,
+    "REF-08": true,
+    "REF-09": true,
+    "REF-10": true,
+    "REF-11": true
+  },
+  "glb_sha256": "fa1ec3c2736e530d3e7c31f291a083cb9b76e3d200d6fa7ee86ee441ac3a9e6b",
+  "download_matches_export": true,
+  "http_status": {
+    "art/s9-pho-nimit/": 200,
+    "art/s9-pho-nimit/export/s9-pho-nimit-reference-v1.glb": 200,
+    "art/s9-pho-nimit/references/sources.json": 200
+  },
+  "canvas_capture": {
+    "format": "PNG",
+    "size": [
+      943,
+      635
+    ]
+  },
+  "scope": "Standalone S9 asset and viewer; not gameplay integration"
+}

@@ -1,0 +1,18 @@
+{
+  "trips": 64,
+  "warehouse": {
+    "food": 13,
+    "water": 6
+  },
+  "used": {
+    "food": 10,
+    "water": 12
+  },
+  "total": {
+    "food": 95,
+    "water": 90
+  },
+  "objectsFull": 6,
+  "workersIdle": 3,
+  "restored": true
+}

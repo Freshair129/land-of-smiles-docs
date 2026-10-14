@@ -1,0 +1,158 @@
+{
+  "beforeReload": {
+    "clock": "DAY 11 · 12:20",
+    "food": "42",
+    "load": {
+      "batches": "204",
+      "meshes": "7928",
+      "ready": "true",
+      "revision": "s9-environment-v062"
+    },
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 29 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 0/24",
+      "P10 · จุดน้ำ 0/24",
+      "P5 · จุดอาหาร 0/24"
+    ],
+    "water": "36",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "-2.561,10.490,-3.000",
+        "text": "คนที่ 1 · ไป P9โถง · ถืออาหาร 8",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "-1.600,10.490,-3.000",
+        "text": "คนที่ 2 · ไป P9โถง · ถืออาหาร 8",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "-0.561,10.490,-3.000",
+        "text": "คนที่ 3 · ไป P9โถง · ถืออาหาร 8",
+        "worker": "2"
+      }
+    ]
+  },
+  "afterReload": {
+    "clock": "DAY 11 · 12:20",
+    "food": "42",
+    "load": {
+      "batches": "204",
+      "meshes": "7928",
+      "ready": "true",
+      "revision": "s9-environment-v062"
+    },
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 29 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 0/24",
+      "P10 · จุดน้ำ 0/24",
+      "P5 · จุดอาหาร 0/24"
+    ],
+    "water": "36",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "-2.561,10.490,-3.000",
+        "text": "คนที่ 1 · ไป P9โถง · ถืออาหาร 8",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "-1.600,10.490,-3.000",
+        "text": "คนที่ 2 · ไป P9โถง · ถืออาหาร 8",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "out",
+        "position": "-0.561,10.490,-3.000",
+        "text": "คนที่ 3 · ไป P9โถง · ถืออาหาร 8",
+        "worker": "2"
+      }
+    ]
+  },
+  "completed": {
+    "clock": "DAY 11 · 17:30",
+    "food": "18",
+    "load": {
+      "batches": "204",
+      "meshes": "7928",
+      "ready": "true",
+      "revision": "s9-environment-v062"
+    },
+    "parts": "40",
+    "paused": true,
+    "progress": "ติดตั้ง 6/10 · ส่งแล้ว 38 เที่ยว · เสบียงถึงทั้งสองจุดแล้ว",
+    "stocks": [
+      "P1 · จุดอาหาร 24/24",
+      "P3 · จุดน้ำ 24/24",
+      "P6 · จุดน้ำ 24/24",
+      "P9 · จุดอาหาร 24/24",
+      "P10 · จุดน้ำ 24/24",
+      "P5 · จุดอาหาร 24/24"
+    ],
+    "water": "12",
+    "workers": [
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "-0.800,10.490,-2.500",
+        "text": "คนที่ 1 · รอรับงานโถง · มือเปล่า",
+        "worker": "0"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.000,10.490,-2.500",
+        "text": "คนที่ 2 · รอรับงานโถง · มือเปล่า",
+        "worker": "1"
+      },
+      {
+        "floor": "concourse",
+        "phase": "idle",
+        "position": "0.800,10.490,-2.500",
+        "text": "คนที่ 3 · รอรับงานโถง · มือเปล่า",
+        "worker": "2"
+      }
+    ]
+  },
+  "logs": [],
+  "viewport": {
+    "height": 884,
+    "width": 990
+  },
+  "finalRender": {
+    "player": {
+      "progress": "ติดตั้ง 0/10 · ส่งแล้ว 0 เที่ยว",
+      "ready": "true",
+      "revision": "s9-environment-v062"
+    },
+    "errors": [],
+    "cameraRevision": "street eye height retained on narrow viewports",
+    "imageFiles": [
+      "overview.jpg",
+      "road-canal.jpg",
+      "shops.jpg",
+      "alley.jpg",
+      "player-ready.jpg"
+    ]
+  }
+}
