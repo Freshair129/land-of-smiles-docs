@@ -63,6 +63,16 @@
 
 ---
 
+## 🎨 Visual Design System & Tokens (Draft)
+
+- [Design System / UI / Accessibility](05-art-and-ux/DESIGN_SYSTEM_v1_TH.md)
+- [VT01–VT05 Character Art Rules](05-art-and-ux/INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md) — ต้องอ่านก่อน generate/model infected variants เพิ่ม
+- [DTCG Design Tokens JSON](05-art-and-ux/tokens/land-of-smiles.tokens.json) · [CSS Variables](05-art-and-ux/tokens/land-of-smiles.css) · [Component CSS](05-art-and-ux/components.css)
+- [Preview HTML](05-art-and-ux/design-system-preview.html) — static Mission Control + Medical Dossier + silhouette examples / theme toggle
+- **Pending DEC-005/DEC-012:** โลโก้และสีสุดท้ายยังไม่ Approved; ไม่มีการอ้างว่า runtime ใช้ style นี้แล้ว
+
+---
+
 ## 📁 สารบัญโครงสร้าง Repository (Directory Map)
 
 ```text

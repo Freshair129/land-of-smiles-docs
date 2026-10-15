@@ -27,6 +27,12 @@
 
 ---
 
+## กฎสำหรับผู้ทำ UI และ Character Art
+
+อ่าน [Design System v1](05-art-and-ux/DESIGN_SYSTEM_v1_TH.md) และ [VT01–VT05 Character Rules](05-art-and-ux/INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md) ก่อนสร้างภาพใหม่ ห้ามใช้สีเพียงอย่างเดียวเพื่อแยกประเภท หรือทำให้ผลวินิจฉัย Cxx แปลว่าอันตรายเชิงการต่อสู้; หากแก้สีใน token JSON ต้องแก้ CSS คู่กันและรัน `node 05-art-and-ux/tokens/validate-tokens.mjs`. งานนี้ยัง Draft รอ DEC-012 และไม่ถือว่าโลโก้/ภาพจบแล้ว
+
+---
+
 ## 🚀 ขั้นตอนการมีส่วนร่วม (How to Contribute)
 
 1. **Fork หรือ Clone Repository:**

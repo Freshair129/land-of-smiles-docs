@@ -17,5 +17,7 @@
 
 สถานะต้นฉบับคือ **Proposed creative direction** การใช้ชื่อ LAND OF SMILES ในโครงสร้างนี้ไม่ได้เปลี่ยนข้อเสนอด้าน tagline, logo หรือระดับ horror ให้เป็นคำตัดสินสุดท้าย
 
+**Draft visual implementation:** [LAND OF SMILES Design System](../05-art-and-ux/DESIGN_SYSTEM_v1_TH.md) และ [DTCG/ CSS tokens](../05-art-and-ux/tokens/README.md) ต่อยอดข้อ 3–5 ของ Brand Concept; ยังไม่ล็อก logo final, tagline, trademark หรือโทน horror จน DEC-005/012 ผ่าน
+
 อ่านร่วมกับ [Game Design](../02-game-design/README.md), [Narrative](../03-narrative/README.md) และ [Art & UX](../05-art-and-ux/README.md) หากต้องการบันทึกคำตอบด้านแบรนด์ ใช้ [Decision Record](../templates/decision-record.md)
 

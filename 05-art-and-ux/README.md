@@ -2,7 +2,19 @@
 
 [กลับสารบัญ](../README.md)
 
-หมวดนี้รวมงานที่ผู้เล่นมองเห็น ได้ยิน และใช้โต้ตอบ เมื่อมีเอกสารเฉพาะด้านเพิ่มจึงค่อยแยกโฟลเดอร์ art, audio และ UI ตามชิ้นงานจริง
+หมวดนี้รวมงานที่ผู้เล่นมองเห็น ได้ยิน และใช้โต้ตอบ; เพิ่มการกำกับ visual identity, character classes และ UI tokens ที่แยกจาก Game Design / Narrative
+
+## Design System v1.0 (Draft)
+
+- **[LAND OF SMILES — Design System](DESIGN_SYSTEM_v1_TH.md)** — Visual language, palettes, UI components, evidence states, typography, accessibility และ templates
+- **[FANS-26 Infected Character Design System](INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md)** — VT01–VT05 silhouette, pose, motion, material, acceptance gates ให้แยกประเภทได้แม้ภาพขาวดำ 96px
+- **[DTCG design tokens](tokens/land-of-smiles.tokens.json)** — Primitive + dark/light semantic themes + C00–C40 / VT01–VT05 token groups
+- **[CSS tokens](tokens/land-of-smiles.css)** + **[Component CSS](components.css)** — พร้อมนำไป import ในเว็บ (ยังไม่ผูกเข้ากับ runtime)
+- **[Static responsive design preview](design-system-preview.html)** — Mission Control, Case Dossier, 5 silhouette cards พร้อมปุ่มสลับธีม
+- **[Token validator](tokens/validate-tokens.mjs)** — Run: `node 05-art-and-ux/tokens/validate-tokens.mjs`
+
+**Status:** ทีมมีเอกสาร+code CSS/JSON แล้ว ไม่ได้แปลว่ามี final logo, final artwork, 3D model ใหม่หรือว่ารันในเกมแล้ว; DEC-005/012 ยัง Open
+
 
 **ชิ้นงานล่าสุด:** [S9 Pho Nimit — Model study V1](../../art/s9-pho-nimit/README.md) พร้อม GLB, source สร้างโมเดล, ตัวดู 3D และภาพจริง 11 ภาพ มีรุ่น gameplay ที่ปรับช่องราวและพื้นพักเข้า [runtime v0.6](../../src/README.md) แล้ว ระบุสิ่งที่อ้างอิงได้กับค่าประมาณแยกกัน
 
@@ -24,7 +36,7 @@
 - **Audio brief:** เหตุการณ์ที่เรียกเสียง ลำดับความสำคัญ ambience และการสื่อสารเมื่อปิดเสียง
 - **Asset list:** ชื่อชิ้นงาน จุดใช้งาน สถานะ ไฟล์ต้นฉบับ/export และแหล่งสิทธิ์
 
-รายการนี้เป็นแนวทางจัดเอกสารใหม่ ไม่ใช่รายการชิ้นงานที่ทำเสร็จแล้ว ในไฟล์ที่สำรวจยังไม่พบ logo master, key art, audio pack หรือ wireframe แยก มี GLB ของต้นแบบอยู่ใน [src](../../src/README.md)
+Design System v1 มี token source, CSS components, static preview และ art guidelines สำหรับ review แล้ว แต่ยังไม่ได้ล็อกโลโก้จริง, key art, audio pack หรือผลิต 3D rig/mesh ของ VT; GLB ต้นแบบเดิมยังอยู่ใน [src](../../src/README.md)
 
 ใช้ [Feature Spec](../templates/feature-spec.md) เมื่อต้องอธิบายพฤติกรรม UI และเชื่อมผลประเมินกับ [Playtesting](../08-playtesting/README.md) ทิศทาง logo, tagline และระดับ horror ยังมีรายการเปิดใน [DEC-005](../07-production/open-decisions.md)
 
