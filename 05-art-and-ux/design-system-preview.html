@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="th" data-los-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Land of Smiles · Design System v1 Preview</title>
+<link rel="stylesheet" href="./tokens/land-of-smiles.css">
+<link rel="stylesheet" href="./components.css">
+<style>
+  .preview-header { display:flex; flex-wrap:wrap; justify-content:space-between; gap:24px; align-items:center; }
+  .preview-brand { font-family:var(--los-font-display); font-weight:700; font-size:clamp(2.3rem,6vw,4rem); line-height:1; letter-spacing:-.03em; }
+  .preview-brand span { color:var(--los-color-accent); }
+  .preview-title { margin: 2rem 0 1rem; font-size:1.25rem; }
+  .preview-tag { font:700 .8rem/1.4 var(--los-font-mono); letter-spacing:.04em; border:1px solid var(--los-color-border); padding:.3rem .5rem; border-radius:var(--los-radius-xs); }
+  .preview-sample { max-width:24rem; color:var(--los-color-text-secondary); }
+  .preview-waterline { height:8px; background:linear-gradient(90deg,var(--los-color-accent),var(--los-color-surface-raised)); border-radius:5px; margin:1.5rem 0; }
+  .preview-silhouette { display:block; color:var(--los-type-accent); width:96px; height:125px; margin:auto auto 10px; overflow:visible; }
+  .preview-silhouette * { fill:currentColor; }
+  .preview-silhouette .cutout { fill:var(--los-color-surface); }
+  .preview-vt { display:flex; flex-direction:column; }
+  .preview-vt .preview-trait { margin-top:auto; padding-top:14px; color:var(--los-color-text-primary); font-size:.8rem; font-weight:600; }
+  .preview-cases { display:flex; flex-wrap:wrap; gap:10px; }
+  .preview-list { padding-left:1.3rem; }
+  .preview-list li+li { margin-top:.5rem; }
+  .preview-foot { border-top:1px solid var(--los-color-border); padding-top:24px; font-size:.82rem; color:var(--los-color-text-secondary); margin-top:3rem; }
+  .preview-example { font-family:var(--los-font-mono); overflow-wrap:anywhere; font-size:.9rem; }
+  .preview-titlebar { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:12px; }
+  .preview-subhead { font-size:.8rem; color:var(--los-color-text-secondary); }
+  .preview-metric-row { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+  @media(max-width:560px){.preview-metric-row{grid-template-columns:1fr;} .los-card{padding:16px}}
+</style>
+</head>
+<body>
+<main class="los-shell">
+  <div class="preview-header">
+    <div>
+      <div class="los-kicker">LAND OF SMILES / BANGKOK OUTBREAK / DS-001</div>
+      <div class="preview-brand">LAND OF <span>SMILES</span></div>
+      <p class="los-muted">The land still smiles. The water remembers.</p>
+    </div>
+    <button id="themeToggle" class="los-button los-button--secondary" type="button" aria-label="เปลี่ยนธีมเป็นแบบสว่าง" aria-pressed="false">เปลี่ยนเป็น Light Theme</button>
+  </div>
+  <div class="preview-waterline" aria-hidden="true"></div>
+  <div class="los-notice"><strong>DESIGN PREVIEW / FICTIONAL SAMPLE ONLY:</strong> ข้อมูลและจำนวนตัวอย่างไม่ใช่ข้อมูลเกมจริงหรือคำวินิจฉัยทางการแพทย์ โรค FANS-26 ไม่ได้รับการรับรองจาก WHO</div>
+
+  <div class="preview-titlebar">
+    <h2 class="preview-title">01 — Mission Control / S9 Pho Nimit</h2>
+    <span class="preview-tag">DAY 10 · CAMPAIGN 01</span>
+  </div>
+  <div class="los-grid" aria-label="ตัวชี้วัดภารกิจตัวอย่าง">
+    <section class="los-card los-metric">
+      <span class="los-metric__label">น้ำดื่มปลอดภัยสำรอง · DEMO</span>
+      <div class="los-metric__value">52 <span class="los-metric__unit">units</span></div>
+      <span class="los-muted">ระบุช่วงเวลาการบริโภคในแอปจริง</span>
+    </section>
+    <section class="los-card los-metric">
+      <span class="los-metric__label">ผู้รอคัดกรอง · DEMO</span>
+      <div class="los-metric__value">18 <span class="los-metric__unit">people</span></div>
+      <span class="los-muted">ยังไม่มีผลยืนยันรายบุคคล</span>
+    </section>
+    <section class="los-card los-metric">
+      <span class="los-metric__label">กำลังรับคนปลายทาง · DEMO</span>
+      <div class="los-metric__value">4 <span class="los-metric__unit">trips</span></div>
+      <span class="los-muted">นับสำเร็จเมื่อได้รับ ACK จริง</span>
+    </section>
+  </div>
+
+  <h2 class="preview-title">02 — Medical / Evidence states</h2>
+  <div class="los-layout">
+    <section class="los-card" aria-labelledby="caseTitle">
+      <div class="los-kicker">S9 SHELTER / TRIAGE CARD / SAMPLE</div>
+      <h3 id="caseTitle" style="margin:.5rem 0 1rem;">ระเบียนเฝ้าสังเกต #EXAMPLE-001</h3>
+      <div class="los-pair">
+        <span class="los-case" data-case="C20">C20 · Probable</span>
+        <span class="preview-tag">S03 · Stage 3 (example)</span>
+        <span class="preview-tag">SV02 · Moderate (example)</span>
+      </div>
+      <p class="preview-sample">สถานะ C20 หมายถึงระดับหลักฐานในโลกนิยาย ไม่ใช่ระดับความอันตรายของบุคคล ตัวอย่างนี้ไม่ใช่ผู้ป่วยจริง</p>
+      <p class="preview-example">LOS-FANS26-C20-S03-SV02-VT02-RG04</p>
+      <hr class="los-divider">
+      <div class="los-field">
+        <label for="sampleEvidence">หลักฐานที่สังเกตได้</label>
+        <input id="sampleEvidence" value="SYM-FVR / SYM-THR / SYM-WFX" readonly>
+        <span class="los-field__hint">ค่าตัวอย่างเท่านั้น · Unknown ≠ Negative · Case status ≠ Type</span>
+      </div>
+      <div class="los-pair" style="margin-top:20px">
+        <a class="los-button" style="text-decoration:none;display:inline-flex;align-items:center" href="../03-narrative/FANS-26_CLINICAL_CASE_DEFINITION_v1_TH.md">เปิดนิยามผู้ป่วย</a>
+        <a class="los-button los-button--secondary" style="text-decoration:none;display:inline-flex;align-items:center" href="../06-engineering/FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md">Coding registry</a>
+      </div>
+    </section>
+    <section class="los-card los-card--raised">
+      <h3 style="margin-top:0">Legend · ความแน่นอนของหลักฐาน</h3>
+      <div class="preview-cases" aria-label="คำอธิบายรหัสสถานะตัวอย่าง">
+        <span class="los-case" data-case="C00">C00 · Unreviewed</span>
+        <span class="los-case" data-case="C10">C10 · Suspected</span>
+        <span class="los-case" data-case="C20">C20 · Probable</span>
+        <span class="los-case" data-case="C30">C30 · Confirmed*</span>
+        <span class="los-case" data-case="C40">C40 · Excluded</span>
+      </div>
+      <p class="los-muted">* C30 ใช้ได้เฉพาะเมื่อในเรื่องมีหลักฐานตามกระบวนการยืนยันที่ตกลงกันแล้ว ไม่ได้เกิดจากรูปร่าง VT หรือความกระหายน้ำ</p>
+      <hr class="los-divider">
+      <h4>Design decision</h4>
+      <ul class="preview-list los-muted"><li>Case certainty, clinical severity และ threat ใช้รหัสแยกกัน</li><li>สี C30 เป็นเขียวฟ้าน้ำ เพราะสื่อความแน่นอนของหลักฐาน ไม่ได้หมายถึงสัญญาณอันตราย</li><li>แพทย์ในเกมไม่จำเป็นต้องเห็น metadata ที่ engine รู้</li></ul>
+    </section>
+  </div>
+
+  <div class="preview-titlebar">
+    <h2 class="preview-title">03 — VT01–VT05 / Distinct silhouettes</h2>
+    <span class="preview-subhead">ตัวอย่าง geometric silhouette เท่านั้น · ไม่ใช่ 3D final assets</span>
+  </div>
+  <div class="los-grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));">
+    <article class="los-card los-vt-card preview-vt" data-infected-type="VT01">
+      <svg class="preview-silhouette" viewBox="0 0 96 125" role="img" aria-label="VT01 แคบและโน้มไปข้างหน้า">
+        <circle cx="58" cy="14" r="9"/><path d="M53 23 L37 44 56 65 74 50 61 41 73 30 68 25 50 32Z"/>
+        <path d="M39 48 L20 64 16 85 22 88 31 71 49 62Z M55 62 L76 82 90 109 80 112 64 88 45 78Z M46 71 L24 93 7 107 13 116 37 103 59 80Z"/>
+      </svg>
+      <div class="los-vt-code">VT01</div><h3>Fever Runner</h3>
+      <p>ตัวแคบ · ขายาว · โน้มหน้า · วิ่งเป็นช่วง</p><div class="preview-trait">FAST / SHORT BURSTS</div>
+    </article>
+    <article class="los-card los-vt-card preview-vt" data-infected-type="VT02">
+      <svg class="preview-silhouette" viewBox="0 0 96 125" role="img" aria-label="VT02 ลำตัวไหล่ซ้ายขวาไม่เท่ากัน แขนหนึ่งข้างใหญ่">
+        <circle cx="48" cy="14" r="10"/><path d="M19 28 L62 24 84 43 73 72 31 69 16 50Z"/><path d="M73 34 L92 43 95 85 80 105 68 99 75 72 67 49Z"/><path d="M20 35 L12 67 6 87 19 91 31 55Z"/><path d="M36 70 L35 113 49 114 53 86 58 114 75 112 67 67Z"/>
+      </svg>
+      <div class="los-vt-code">VT02</div><h3>Overgrown</h3>
+      <p>ไหล่ข้างเดียวใหญ่ · ฐานหนัก · หมุนช้า</p><div class="preview-trait">HEAVY / ASYMMETRIC</div>
+    </article>
+    <article class="los-card los-vt-card preview-vt" data-infected-type="VT03">
+      <svg class="preview-silhouette" viewBox="0 0 96 125" role="img" aria-label="VT03 รูปทรงตั้งตรงเป็นเหลี่ยม ข้อต่อแข็ง">
+        <rect x="39" y="5" width="19" height="20" rx="4"/><path d="M31 29 L65 29 70 67 27 67Z"/><path d="M28 32 L15 37 18 81 31 84 37 70 30 51Z M66 32 L80 39 76 81 65 84 59 69Z"/><path d="M31 70 L29 113 44 114 47 81 50 114 67 113 64 70Z"/><path class="cutout" d="M36 42L60 42 59 47 36 47Z"/>
+      </svg>
+      <div class="los-vt-code">VT03</div><h3>Fibrotic</h3>
+      <p>ทรงตั้งแข็ง · พังผืดเป็นแผ่น · ข้อฝืด</p><div class="preview-trait">RIGID / LIMITED FLEX</div>
+    </article>
+    <article class="los-card los-vt-card preview-vt" data-infected-type="VT04">
+      <svg class="preview-silhouette" viewBox="0 0 96 125" role="img" aria-label="VT04 รูปร่างบิดเป็นตัวเอส มีมวลข้างลำตัวและขาไม่สมดุล">
+        <circle cx="61" cy="13" r="9"/><path d="M54 23 Q30 30 36 50 Q70 54 54 70 L19 72 22 87 64 81 67 58 Q80 41 62 28Z"/><ellipse cx="29" cy="44" rx="15" ry="10"/><path d="M34 47 L20 59 8 92 19 96 33 76 47 60Z M57 51 L79 57 85 89 72 91 66 68Z"/><path d="M30 79 L18 112 33 118 46 94 57 116 73 107 58 77Z"/>
+      </svg>
+      <div class="los-vt-code">VT04</div><h3>Aberrant</h3>
+      <p>เส้นลำตัวคด · มวลไม่สมดุล · จังหวะสะดุด</p><div class="preview-trait">UNSTABLE / CROOKED</div>
+    </article>
+    <article class="los-card los-vt-card preview-vt" data-infected-type="VT05">
+      <svg class="preview-silhouette" viewBox="0 0 96 125" role="img" aria-label="VT05 ท่ายืนก้ม แขนและผ้าเปียกห้อยลง มีแนวคลื่นน้ำ">
+        <circle cx="43" cy="17" r="10"/><path d="M27 14 Q19 20 24 41 L33 48 19 76 38 91 64 78 56 39 48 29Z"/><path d="M26 42 L17 67 16 102 27 104 32 73Z M55 41 L72 69 76 106 64 107 55 77Z"/><path d="M31 84L22 119 37 121 46 96 55 120 70 118 60 82Z"/><path d="M11 109 Q48 102 85 111 L85 115 Q48 108 11 115Z"/><circle cx="76" cy="118" r="2.5"/>
+      </svg>
+      <div class="los-vt-code">VT05</div><h3>Drowned Seeker</h3>
+      <p>ผ้าเปียกห้อย · หมกมุ่นน้ำ · เดินลุยช้า</p><div class="preview-trait">WATER / DROOPING</div>
+    </article>
+  </div>
+
+  <h2 class="preview-title">04 — Design tokens / semantics</h2>
+  <div class="los-grid">
+    <section class="los-card"><div class="los-kicker">ACTION / RESCUE</div><h3>คนมาก่อนภัยคุกคาม</h3><p class="los-muted">กรณีช่วยเหลือใช้น้ำ/สีเหลืองอำพัน แต่ไม่ใช้เป็นสีระบุผู้ป่วยที่มีความผิด</p></section>
+    <section class="los-card"><div class="los-kicker">EVIDENCE / NO OMNISCIENCE</div><h3>C ≠ S ≠ SV ≠ VT ≠ RG</h3><p class="los-muted">ผู้ป่วยระยะรุนแรงอาจยังมีหลักฐานเพียงระดับสงสัย กราฟิกต้องไม่อ้างว่าแพทย์รู้ทุกอย่าง</p></section>
+    <section class="los-card"><div class="los-kicker">NO-GORE VISUAL SYSTEM</div><h3>Design by behavior</h3><p class="los-muted">Five infected types distinguishable by shape, movement, texture, costume and location without visible gore</p></section>
+  </div>
+  <p class="preview-foot">LAND OF SMILES — Design System preview v1.0 · HTML/CSS-only demonstration with a functioning theme toggle. No medical claim, no game runtime integration, no trademark approval.</p>
+</main>
+<script>
+  const button=document.getElementById("themeToggle");
+  const root=document.documentElement;
+  button.addEventListener("click",()=>{
+    const light=root.getAttribute("data-los-theme")==="dark";
+    root.setAttribute("data-los-theme",light?"light":"dark");
+    button.textContent=light?"เปลี่ยนเป็น Dark Theme":"เปลี่ยนเป็น Light Theme";
+    button.setAttribute("aria-pressed",light?"true":"false");
+    button.setAttribute("aria-label",light?"เปลี่ยนธีมเป็นแบบมืด":"เปลี่ยนธีมเป็นแบบสว่าง");
+  });
+</script>
+</body>
+</html>
