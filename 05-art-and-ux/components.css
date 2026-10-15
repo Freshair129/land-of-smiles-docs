@@ -1,0 +1,77 @@
+/* LAND OF SMILES / Component styles v1.0 — standalone CSS with tokens.
+   Import tokens/land-of-smiles.css before this stylesheet. */
+* { box-sizing: border-box; }
+html { font-family: var(--los-font-ui); }
+body {
+  margin: 0;
+  background: var(--los-color-canvas);
+  color: var(--los-color-text-primary);
+  font-size: var(--los-font-size-body);
+  line-height: var(--los-line-height-body);
+}
+a { color: var(--los-color-accent); text-underline-offset: .2em; }
+:focus-visible { outline: var(--los-border-focus) solid var(--los-color-focus); outline-offset: 3px; }
+.los-shell { max-width: var(--los-content-max); margin-inline: auto; padding: clamp(16px, 4vw, 48px); }
+.los-kicker { color: var(--los-color-accent); font: 700 .78rem/1.3 var(--los-font-mono); text-transform: uppercase; letter-spacing: .10em; }
+.los-heading { font: 700 clamp(1.9rem, 4.3vw, 3.2rem)/1.12 var(--los-font-display); letter-spacing: .015em; margin: .3em 0; }
+.los-subheading { font: 700 var(--los-font-size-heading)/1.2 var(--los-font-ui); }
+.los-muted { color: var(--los-color-text-secondary); }
+.los-card {
+  background: var(--los-color-surface);
+  border: var(--los-border-hairline) solid var(--los-color-border);
+  border-radius: var(--los-radius-lg);
+  padding: var(--los-space-6);
+}
+.los-card--raised { background: var(--los-color-surface-raised); }
+.los-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--los-card-min-width)), 1fr)); gap: var(--los-space-4); }
+.los-vt-card { border-top: 4px solid var(--los-type-accent); min-height: 210px; }
+.los-vt-code { color: var(--los-type-accent); font: 700 1rem/1.2 var(--los-font-mono); letter-spacing: .05em; }
+.los-vt-card h3 { font-size: 1.28rem; line-height: 1.2; margin: var(--los-space-3) 0; }
+.los-vt-card p { margin: 0; color: var(--los-color-text-secondary); }
+.los-case {
+  display: inline-flex; align-items: center; gap: .5em;
+  min-height: 30px; padding: .25rem .6rem;
+  border-radius: var(--los-radius-sm);
+  border: 1px solid currentColor;
+  color: var(--los-case-color, var(--los-color-text-secondary));
+  font: 600 .82rem/1.35 var(--los-font-ui);
+}
+.los-case[data-case="C00"] { --los-case-color: var(--los-case-c00); }
+.los-case[data-case="C10"] { --los-case-color: var(--los-case-c10); }
+.los-case[data-case="C20"] { --los-case-color: var(--los-case-c20); }
+.los-case[data-case="C30"] { --los-case-color: var(--los-case-c30); }
+.los-case[data-case="C40"] { --los-case-color: var(--los-case-c40); }
+.los-case::before { content: ""; width: .5rem; height: .5rem; border-radius: 2px; background: currentColor; flex: none; }
+.los-case[data-case="C10"]::before { border-radius: 100%; }
+.los-case[data-case="C20"]::before { transform: rotate(45deg); border-radius: 1px; }
+.los-case[data-case="C30"]::before { clip-path: polygon(50% 0, 100% 100%, 0 100%); border-radius: 0; }
+.los-case[data-case="C40"]::before { border-radius: 100%; background: transparent; border: 2px solid currentColor; }
+.los-metric { display: grid; gap: var(--los-space-2); }
+.los-metric__label { font-weight: 600; color: var(--los-color-text-secondary); font-size: var(--los-font-size-label); }
+.los-metric__value { font: 700 2rem/1.1 var(--los-font-mono); letter-spacing: -.04em; }
+.los-metric__unit { font-size: var(--los-font-size-label); color: var(--los-color-text-secondary); }
+.los-button {
+  min-height: var(--los-touch-target); min-width: var(--los-touch-target);
+  border-radius: var(--los-radius-md); border: var(--los-border-hairline) solid transparent;
+  padding: .6rem 1rem; font: 700 .95rem/1.2 var(--los-font-ui); cursor: pointer;
+  background: var(--los-color-accent); color: var(--los-color-accent-text);
+  transition: filter var(--los-duration-fast) ease;
+}
+.los-button:hover { filter: brightness(1.08); }
+.los-button--secondary { background: transparent; color: var(--los-color-text-primary); border-color: var(--los-color-border); }
+.los-button:disabled { opacity: var(--los-opacity-disabled); cursor: not-allowed; }
+.los-divider { border: 0; border-top: 1px solid var(--los-color-border); margin: var(--los-space-6) 0; }
+.los-pair { display: flex; align-items: center; gap: var(--los-space-3); flex-wrap: wrap; }
+.los-layout { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr); gap: var(--los-space-4); }
+.los-field { display: grid; gap: var(--los-space-2); }
+.los-field label { font-weight: 600; }
+.los-field input {
+  background: var(--los-color-surface-raised); color: var(--los-color-text-primary);
+  border: 1px solid var(--los-color-border); padding: var(--los-space-3);
+  border-radius: var(--los-radius-sm); min-height: var(--los-touch-target);
+  font: inherit;
+}
+.los-field__hint { color: var(--los-color-text-secondary); font-size: var(--los-font-size-label); }
+.los-notice { padding: var(--los-space-3) var(--los-space-4); border-inline-start: 4px solid var(--los-color-rescue); background: var(--los-color-surface-raised); }
+@media (max-width: 760px) { .los-layout { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .los-button { transition: none; } }

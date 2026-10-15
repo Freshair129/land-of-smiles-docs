@@ -1,0 +1,118 @@
+/* Generated from land-of-smiles.tokens.json v1.0. Proposed design system.
+   DTCG source of truth is JSON; this is the browser-facing distribution.
+   Status Cxx = evidence, NOT severity or hostility.
+   Never use infected type color to diagnose clinical case status. */
+:root, [data-los-theme="dark"] {
+  color-scheme: dark;
+  --los-color-canvas: #0D1921;
+  --los-color-surface: #142630;
+  --los-color-surface-raised: #1D333D;
+  --los-color-surface-alt: #283F48;
+  --los-color-text-primary: #F7F9F8;
+  --los-color-text-secondary: #C9D8DB;
+  --los-color-text-muted: #A6BDC3;
+  --los-color-border: #4A6670;
+  --los-color-accent: #7ACCD0;
+  --los-color-accent-text: #0D1921;
+  --los-color-rescue: #F0C476;
+  --los-color-rescue-text: #0D1921;
+  --los-color-danger: #F58E87;
+  --los-color-danger-text: #0D1921;
+  --los-color-success: #8DD6AF;
+  --los-color-success-text: #0D1921;
+  --los-color-focus: #F0C476;
+  --los-case-c00: #A6BDC3;
+  --los-case-c10: #F0C476;
+  --los-case-c20: #ECA86D;
+  --los-case-c30: #77CFC7;
+  --los-case-c40: #ADC5D4;
+  --los-type-vt01: #ECA86D;
+  --los-type-vt02: #D8A37C;
+  --los-type-vt03: #ADC5D4;
+  --los-type-vt04: #C4AFE6;
+  --los-type-vt05: #77CFC7;
+  --los-font-ui: "IBM Plex Sans Thai", "Noto Sans Thai", Tahoma, system-ui, sans-serif;
+  --los-font-display: Oswald, "Arial Narrow", "IBM Plex Sans Thai", sans-serif;
+  --los-font-mono: "IBM Plex Mono", Consolas, monospace;
+  --los-line-height-body: 1.55;
+  --los-line-height-tight: 1.15;
+  --los-radius-xs: 4px;
+  --los-radius-sm: 8px;
+  --los-radius-md: 12px;
+  --los-radius-lg: 18px;
+  --los-radius-xl: 28px;
+  --los-radius-pill: 999px;
+  --los-border-hairline: 1px;
+  --los-border-strong: 2px;
+  --los-border-focus: 3px;
+  --los-space-0: 0px;
+  --los-space-1: 4px;
+  --los-space-2: 8px;
+  --los-space-3: 12px;
+  --los-space-4: 16px;
+  --los-space-6: 24px;
+  --los-space-8: 32px;
+  --los-space-12: 48px;
+  --los-space-16: 64px;
+  --los-font-size-caption: .75rem;
+  --los-font-size-label: .875rem;
+  --los-font-size-body: 1rem;
+  --los-font-size-body-large: 1.125rem;
+  --los-font-size-subtitle: 1.375rem;
+  --los-font-size-heading: 1.75rem;
+  --los-font-size-hero: 2.5rem;
+  --los-duration-fast: 120ms;
+  --los-duration-normal: 200ms;
+  --los-duration-slow: 320ms;
+  --los-duration-alert: 900ms;
+  --los-opacity-disabled: .45;
+  --los-touch-target: 44px;
+  --los-content-max: 1200px;
+  --los-sidebar-width: 272px;
+  --los-dossier-width: 920px;
+  --los-card-min-width: 240px;
+  --los-type-accent: var(--los-type-vt01);
+}
+
+[data-los-theme="light"] {
+  color-scheme: light;
+  --los-color-canvas: #F7F4ED;
+  --los-color-surface: #FFFFFF;
+  --los-color-surface-raised: #E6ECEB;
+  --los-color-surface-alt: #EBE6DA;
+  --los-color-text-primary: #0D1921;
+  --los-color-text-secondary: #465B65;
+  --los-color-text-muted: #526873;
+  --los-color-border: #526873;
+  --los-color-accent: #155862;
+  --los-color-accent-text: #FFFFFF;
+  --los-color-rescue: #83520D;
+  --los-color-rescue-text: #FFFFFF;
+  --los-color-danger: #A52D39;
+  --los-color-danger-text: #FFFFFF;
+  --los-color-success: #196A44;
+  --los-color-success-text: #FFFFFF;
+  --los-color-focus: #155862;
+  --los-case-c00: #465B65;
+  --los-case-c10: #83520D;
+  --los-case-c20: #934910;
+  --los-case-c30: #155E59;
+  --los-case-c40: #3C647D;
+  --los-type-vt01: #934910;
+  --los-type-vt02: #855238;
+  --los-type-vt03: #3C647D;
+  --los-type-vt04: #674695;
+  --los-type-vt05: #155E59;
+}
+
+[data-infected-type="VT00"] { --los-type-accent: var(--los-color-text-muted); }
+[data-infected-type="VT01"] { --los-type-accent: var(--los-type-vt01); }
+[data-infected-type="VT02"] { --los-type-accent: var(--los-type-vt02); }
+[data-infected-type="VT03"] { --los-type-accent: var(--los-type-vt03); }
+[data-infected-type="VT04"] { --los-type-accent: var(--los-type-vt04); }
+[data-infected-type="VT05"] { --los-type-accent: var(--los-type-vt05); }
+
+/* Semantic classes never depend on hue alone. Always show code + text label. */
+@media (prefers-reduced-motion: reduce) {
+  :root { --los-duration-fast: 0ms; --los-duration-normal: 0ms; --los-duration-slow: 0ms; --los-duration-alert: 0ms; }
+}
