@@ -5,7 +5,8 @@
 **Status:** Draft art direction — references, not finished character assets  
 **Updated:** 2026-10-15  
 **Canon:** [Type Classification](../02-game-design/FANS-26_INFECTED_TYPE_CLASSIFICATION_v1_TH.md), [Variant Balance](../02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md)  
-**DS:** [Design System](DESIGN_SYSTEM_v1_TH.md) · [Type accent tokens](tokens/land-of-smiles.tokens.json)
+**DS:** [Design System v1.1](DESIGN_SYSTEM_v1_TH.md) · [Color & Texture](COLOR_AND_TEXTURE_SYSTEM_v1_TH.md) · [Type accent tokens](tokens/land-of-smiles.tokens.json)
+**Art-color revision:** RUIN × BLOOD × BONE; fixed silhouette regardless of red marketing treatments.
 
 ## 1. What went wrong with the previous mockups
 
@@ -17,11 +18,11 @@
 
 | ID | Big shape | Body ratio cue (relative, not medical measurement) | Distinct pose | Material / clothing | Animation signature | Accent |
 |---|---|---|---|---|---|---|
-| VT01 **Fever Runner** | narrow forward arrow, lots of negative space | lean limbs, narrow chest; no huge shoulders | diagonal sprint, weight pitched forward, one foot lifted | light sportswear / medical exhaustion, sweat | short bursts, trembling pause, rapid breath | warm orange |
-| VT02 **Overgrown** | asymmetric wedge (heavy one side) | one shoulder + forearm visually dominant; **do not automatically make 240cm giant** | off-center planted feet, one heavy arm hanging low | stretched shirt, slings, rough enlarged forms | slow initiation, heavy momentum, poor turn rate | rust |
-| VT03 **Fibrotic** | tall rigid rectangle / stacked angular plates | elbows and knees held in stiff angles; no giant muscles | upright frozen torso, constrained bend | matte scar bands/rigid surfaces (non-graphic) | stiff steps, limited head turn and reach | pale steel-blue |
-| VT04 **Aberrant** | bent S-line, uneven protrusions | off-axis shoulder/back, asymmetric under-cloth masses | side-twisted standing, constant imbalance | lumpy subcutaneous forms, clothing stretched unevenly | pauses, correction, irregular limping | muted violet |
-| VT05 **Drowned Seeker** | drooping rainlines / narrow suspended shape | hanging fabric/long wet hair, arms pendulous | face angled toward nearby water, half-wading | soaked fabric, wrinkled skin, reflective water | slow, distracted, slight swaying; still breathes air | cold aqua |
+| VT01 **Fever Runner** | narrow forward arrow, lots of negative space | lean limbs, narrow chest; no huge shoulders | diagonal sprint, weight pitched forward, one foot lifted | light sportswear / medical exhaustion, sweat | short bursts, trembling pause, rapid breath | blood-red UI tag, not a red body |
+| VT02 **Overgrown** | asymmetric wedge (heavy one side) | one shoulder + forearm visually dominant; **do not automatically make 240cm giant** | off-center planted feet, one heavy arm hanging low | stretched shirt, slings, rough enlarged forms | slow initiation, heavy momentum, poor turn rate | moss-olive UI tag, not a green body |
+| VT03 **Fibrotic** | tall rigid rectangle / stacked angular plates | elbows and knees held in stiff angles; no giant muscles | upright frozen torso, constrained bend | matte scar bands/rigid surfaces (non-graphic) | stiff steps, limited head turn and reach | desaturated violet UI tag |
+| VT04 **Aberrant** | bent S-line, uneven protrusions | off-axis shoulder/back, asymmetric under-cloth masses | side-twisted standing, constant imbalance | lumpy subcutaneous forms, clothing stretched unevenly | pauses, correction, irregular limping | harsh rust-orange UI tag |
+| VT05 **Drowned Seeker** | drooping rainlines / narrow suspended shape | hanging fabric/long wet hair, arms pendulous | face angled toward nearby water, half-wading | soaked fabric, wrinkled skin, reflective water | slow, distracted, slight swaying; still breathes air | deep water-blue UI tag |
 
 **Independent variables:** VT type ≠ RG regeneration tier; type ≠ case Cxx; dark/light accent independent of silhouette. Hyper 70%, catatonic 30%, New Types 8% per Stage-3 cohort are lore/game-balance proposals in their own documents, **not** artist quotas or counts for every scene.
 
@@ -62,6 +63,20 @@
 - **Scene cue:** canal steps, drain or floodwater along S9 with real reachable water.
 - **Weakness readable:** current/depth, exhaustion, slipping/drowning potential.
 
+## 3.1 Type-color annotations (DS v1.1)
+
+Colors are **UI labels / concept art callouts**, not intrinsic skin colors. Black silhouette test runs without them.
+
+| Type | Dark accent | Light accent | Check |
+|---|---|---|---|
+| VT01 | `#F0786F` | `#A31212` | heat + forward diagonal; not uniform red stains |
+| VT02 | `#B5C888` | `#556B3A` | asymmetric mass; avoid random green creature |
+| VT03 | `#BDABE4` | `#6A4A7A` | rigid scar bands, no thorn fantasy |
+| VT04 | `#F8B16C` | `#AE4B18` | crooked body and misalignment; rust-orange UI caption |
+| VT05 | `#8DD3DF` | `#2F5D69` | water fixation, dark-blue caption; still breathes air |
+
+**Red paint and blood-like splatters:** Allowed only in campaign composition or dossier *cover* outside protected case text. Do not add identical red smears to every monster to force series coherence — that recreates the original sameness problem. For style guidance see [Color & Texture Rules](COLOR_AND_TEXTURE_SYSTEM_v1_TH.md).
+
 ## 4. Costume and setting libraries
 
 **Urban survivor archetypes, mixed across types:** commuter with office ID, motorcycle courier, maintenance worker, market seller, rescue volunteer, student (adult), elderly commuter. Avoid turning a job, nationality, ethnic group or class into an infection marker. Variation should be within type while preserving silhouette.
@@ -78,7 +93,7 @@
 2. 96px monochrome silhouette strip with labels covered: 5/5 should be recognizable by reviewer who knows brief.
 3. Detail panel for each: facial state, signature body change, costume material, gait/footwear, environment interaction.
 4. Front ¾ full-body action image; separate **in-game isometric view** (actual gameplay camera) to test legibility.
-5. Consistent render settings, neutral flood gray background, no red gore props, no fake WHO symbols.
+5. Consistent render settings, neutral flood gray background, **no red blood-paint overlays during silhouette acceptance**, no fake WHO symbols. Horror-red splatter is optional on separate promotional presentation boards only.
 6. Colors apply at UI annotation and limited physical cues only; do not turn all infected bodies their accent hues.
 
 **Asset packages per type:** `LOS_FANS26_VT01_Concept_Front_v001.png`, `..._Side_...`, `..._Back_...`, `..._Iso_...`, `..._Details_...`, later rig file name with `VTXX` and version. Thumbnail 256px and gameplay 96px evidence must accompany approval. The mentioned files are **required output names**, not claims that assets were created.
@@ -105,4 +120,4 @@
 | S5: data fidelity | VT IDs and RG/Cxx are not conflated, no new type invented | Specified |
 | S6: shipping | source, license, PSD/blend/glTF references, LOD, texture budget, naming/version | Planned |
 
-**Status reminder:** prior generated poster mockups were experiments, *not final locked concept art*; no new 3D characters have been committed in this design-system PR.
+**Status reminder:** prior generated poster mockups were experiments, *not final locked concept art*; no new 3D characters have been committed in this design-system PR. The generated blood-red design board may contain fictitious studio credits and wrong labels (e.g. C40 Terminal); only code registry and tokens JSON are canonical.

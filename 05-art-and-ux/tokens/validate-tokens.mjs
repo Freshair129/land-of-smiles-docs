@@ -1,77 +1,85 @@
-// Land of Smiles token validation. Node 20+; no dependencies.
+// Land of Smiles / DS v1.1 design token quality gates. Node 20+, no npm dependencies.
 // Run: node 05-art-and-ux/tokens/validate-tokens.mjs
 import {readFileSync} from "node:fs";
+import {join, dirname} from "node:path";
 import {fileURLToPath} from "node:url";
-import {dirname,join} from "node:path";
+import {renderCss} from "./build-tokens.mjs";
+
 const dir=dirname(fileURLToPath(import.meta.url));
-const tree=JSON.parse(readFileSync(join(dir,"land-of-smiles.tokens.json"),"utf8"));
+const tokens=JSON.parse(readFileSync(join(dir,"land-of-smiles.tokens.json"),"utf8"));
 const css=readFileSync(join(dir,"land-of-smiles.css"),"utf8");
-const assertions=[];
-const assert=(condition,message)=>{if(!condition)throw Error(message);assertions.push(message);};
-const collect=(node,path=[],all={})=>{
- if(node && typeof node==="object" && Object.hasOwn(node,"$value")){all[path.join(".")]=node;return all;}
- for(const [k,v]of Object.entries(node ?? {})){if(!k.startsWith("$"))collect(v,[...path,k],all)}
- return all;
-};
-const tokens=collect(tree);
-const resolve=(path,seen=[])=>{
- assert(!seen.includes(path),"cycle "+path);
- const tok=tokens[path];
- assert(!!tok,"unknown alias "+path);
- const value=tok.$value;
- if(typeof value==="string" && /^\{[^{}]+\}$/.test(value))return resolve(value.slice(1,-1),[...seen,path]);
- return value;
-};
-const luminance=(hex)=>{
- const c=[1,3,5].map(i=>Number.parseInt(hex.slice(i,i+2),16)/255);
- const rgb=c.map(x=>x<=0.04045?x/12.92:((x+0.055)/1.055)**2.4);
- return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2];
-};
-const contrast=(hexA,hexB)=>{
- const a=luminance(hexA),b=luminance(hexB);
- return (Math.max(a,b)+.05)/(Math.min(a,b)+.05);
-};
-const getColor=path=>{
- const x=resolve(path);
- assert(x?.colorSpace==="srgb"&&/^#[0-9A-Fa-f]{6}$/.test(x?.hex??""),"bad sRGB "+path);
- const components=[1,3,5].map(i=>Math.round(parseInt(x.hex.slice(i,i+2),16)/255*1e6)/1e6);
- assert(JSON.stringify(components)===JSON.stringify(x.components),"bad components "+path);
- return x.hex;
-};
-for(const path of Object.keys(tokens)){
- const tok=tokens[path];
- if(typeof tok.$value==="string"&&/^\{[^{}]+\}$/.test(tok.$value))resolve(path);
- if(path.startsWith("color."))getColor(path);
+const componentCss=readFileSync(join(dir,"..","components.css"),"utf8");
+const preview=readFileSync(join(dir,"..","design-system-preview.html"),"utf8");
+const errors=[],testResults=[];
+const test=(ok,what)=>{testResults.push({ok,what});if(!ok)errors.push(what);};
+const entries={};
+function collect(node,path=[]){
+ if(node&&typeof node==="object"&&Object.hasOwn(node,"$value")){entries[path.join(".")]=node;return;}
+ for(const [k,v] of Object.entries(node||{}))if(!k.startsWith("$"))collect(v,[...path,k]);
 }
-const pairs=[
- ["dark","textPrimary","canvas",4.5],
- ["dark","textSecondary","surface",4.5],
- ["dark","border","surface",3],
- ["dark","focus","canvas",3],
- ["light","textPrimary","canvas",4.5],
- ["light","textSecondary","surface",4.5],
- ["light","border","surface",3],
- ["light","focus","canvas",3]
-];
-for(const [mode,fg,bg,min]of pairs){
- const a=getColor(`color.theme.${mode}.${fg}`),b=getColor(`color.theme.${mode}.${bg}`);
- assert(contrast(a,b)>=min,`low contrast ${mode}.${fg} on ${bg}: ${contrast(a,b).toFixed(2)} < ${min}`);
+collect(tokens);
+function resolve(path,seen=[]){
+ if(seen.includes(path))throw Error("Circular token alias: "+[...seen,path].join(" > "));
+ const t=entries[path];if(!t)throw Error("Unresolved token: "+path);
+ const v=t.$value;
+ return typeof v==="string"&&/^\{[^{}]+\}$/.test(v)?resolve(v.slice(1,-1),[...seen,path]):v;
 }
-for(const mode of ["dark","light"]){
- for(const code of ["C00","C10","C20","C30","C40"]){
-  const fg=getColor(`color.surveillance.${mode}.${code}`);
-  const bg=getColor(`color.theme.${mode}.surface`);
-  assert(contrast(fg,bg)>=4.5,`case label insufficient contrast ${mode} ${code}`);
+const luminance=hex=>{
+ const rgb=[1,3,5].map(i=>parseInt(hex.slice(i,i+2),16)/255);
+ const linear=rgb.map(x=>x<=0.04045?x/12.92:((x+.055)/1.055)**2.4);
+ return linear[0]*.2126+linear[1]*.7152+linear[2]*.0722;
+};
+const contrast=(a,b)=>{
+ const [l1,l2]=[luminance(a),luminance(b)].sort((x,y)=>y-x);
+ return (l1+.05)/(l2+.05);
+};
+const getHex=path=>{
+ const v=resolve(path);
+ if(!v||v.colorSpace!=="srgb"||!/^#[0-9A-F]{6}$/.test(v.hex))throw Error("Invalid color "+path);
+ const components=[1,3,5].map(i=>Math.round(parseInt(v.hex.slice(i,i+2),16)/255*1000000)/1000000);
+ if(JSON.stringify(components)!==JSON.stringify(v.components))throw Error("Mismatched sRGB components "+path);
+ return v.hex;
+};
+test(css===renderCss(tokens),"Compiled CSS exactly matches tokens.json");
+test(Object.keys(entries).length>=145,"Token registry contains full DS v1.1 set");
+for(const p of Object.keys(entries)){
+ try {const v=resolve(p);if(p.startsWith("color."))getHex(p);}catch(e){test(false,e.message);}
+}
+const checked=[];
+function checkRatio(theme,fg,bg,minimum,namespace="color.theme"){
+ const a=getHex(namespace+"."+theme+"."+fg),b=getHex("color.theme."+theme+"."+bg);
+ const ratio=contrast(a,b);
+ checked.push({theme,fg,bg,ratio:Number(ratio.toFixed(2)),target:minimum});
+ test(ratio>=minimum,"WCAG "+theme+" "+fg+" vs "+bg+" >= "+minimum+" (actual "+ratio.toFixed(2)+")");
+}
+for(const m of ["dark","light"]){
+ for(const [a,b,min] of [["textPrimary","canvas",4.5],["textSecondary","surface",4.5],["textMuted","surface",4.5],["border","surface",3],["accent","surface",4.5],["operational","surface",4.5],["focus","canvas",3],["brand","surface",4.5]]){
+  checkRatio(m,a,b,min);
  }
- for(const code of ["VT01","VT02","VT03","VT04","VT05"]){
-  const fg=getColor(`color.infectedType.${mode}.${code}`);
-  const bg=getColor(`color.theme.${mode}.surface`);
-  assert(contrast(fg,bg)>=4.5,`type label insufficient contrast ${mode} ${code}`);
-  assert(css.includes(`--los-type-${code.toLowerCase()}:`),`CSS missing ${code}`);
+ const txt=getHex("color.theme."+m+".accentText"),accent=getHex("color.theme."+m+".accent");
+ const brandTxt=getHex("color.theme."+m+".brandText"),brand=getHex("color.theme."+m+".brand");
+ test(contrast(txt,accent)>=4.5,m+" CTA text / accent contrast");
+ test(contrast(brandTxt,brand)>=4.5,m+" brand text / background contrast");
+ for(const [part,codes]of [["surveillance",["C00","C10","C20","C30","C40"]],["infectedType",["VT01","VT02","VT03","VT04","VT05"]]]){
+  for(const code of codes)checkRatio(m,code,"surface",4.5,"color."+part);
  }
 }
-assert(Object.keys(tokens).length>=100,"token count suspiciously low");
-assert(css.includes("[data-los-theme=\"light\"]"),"light theme missing");
-assert(css.includes("prefers-reduced-motion"),"motion override missing");
-const contrastSummary=pairs.map(([m,f,b])=>({pair:`${m}/${f}/${b}`,ratio:+contrast(getColor(`color.theme.${m}.${f}`),getColor(`color.theme.${m}.${b}`)).toFixed(2)}));
-process.stdout.write(JSON.stringify({status:"PASS",tokenCount:Object.keys(tokens).length,assertions:assertions.length,contrastSummary},null,2)+"\n");
+test(getHex("color.surveillance.dark.C30")!==(getHex("color.theme.dark.danger")),"Dark C30 confirmed is NOT a danger red");
+test(getHex("color.surveillance.light.C30")!==getHex("color.theme.light.danger"),"Light C30 confirmed is NOT a danger red");
+test(resolve("graphics.grunge.medicalOpacity")===0,"Medical panels have zero decorative blood-splatter opacity");
+test(resolve("graphics.grunge.heroOpacity")>resolve("graphics.grunge.panelAccentOpacity"),"Horror grunge concentrated in marketing");
+for(const v of ["VT01","VT02","VT03","VT04","VT05"]){
+ test(css.includes('data-infected-type="'+v+'"'),"Theme supports "+v);
+ test(preview.includes('data-infected-type="'+v+'"'),"Preview renders "+v);
+}
+for(const c of ["C00","C10","C20","C30","C40"])
+ test(preview.includes('data-case="'+c+'"'),"Clinical preview includes "+c);
+test(preview.includes('id="themeToggle"'),"Preview includes working theme control");
+const allCssVars=new Set([css,componentCss,preview].flatMap(source=>[...source.matchAll(/--los-[\w-]+(?=\s*:)/g)].map(m=>m[0])));
+for(const [section,source]of [["components",componentCss],["preview",preview]]){
+ for(const m of source.matchAll(/var\((--los-[\w-]+)/g))
+  if(!allCssVars.has(m[1]))test(false,section+" unbound CSS variable "+m[1]);
+}
+const result={status:errors.length?"FAIL":"PASS",tokenCount:Object.keys(entries).length,checks:testResults.length,errors,contrast:checked};
+process.stdout.write(JSON.stringify(result,null,2)+"\n");
+if(errors.length)process.exitCode=1;

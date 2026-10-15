@@ -14,7 +14,7 @@ v0.6.4: [คนเดิน รถวิ่ง ใบไม้ไหว — ก�
 
 **FANS-26 proposed data contract:** [Coding & Case Data Dictionary](FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md) — LOS-FANS26 composite codes, immutable patient ID, independent C/S/SV/VT/RG and audit/version handling (not implemented)
 
-**Visual design integration (proposed, not implemented):** [Design System](../05-art-and-ux/DESIGN_SYSTEM_v1_TH.md) · [DTCG tokens](../05-art-and-ux/tokens/land-of-smiles.tokens.json) · [CSS vars](../05-art-and-ux/tokens/land-of-smiles.css) · [Component CSS](../05-art-and-ux/components.css) · [static preview](../05-art-and-ux/design-system-preview.html). Runtime migration must be a separate ticket with screenshot regression and save/load checks.
+**Visual design integration v1.1 (proposed, not implemented):** [Design System Ruin × Blood × Bone](../05-art-and-ux/DESIGN_SYSTEM_v1_TH.md) · [Color & Texture](../05-art-and-ux/COLOR_AND_TEXTURE_SYSTEM_v1_TH.md) · [DTCG tokens](../05-art-and-ux/tokens/land-of-smiles.tokens.json) → [generated CSS](../05-art-and-ux/tokens/land-of-smiles.css) · [Component CSS](../05-art-and-ux/components.css) · [preview](../05-art-and-ux/design-system-preview.html). Use `node 05-art-and-ux/tokens/build-tokens.mjs --check` and `node 05-art-and-ux/tokens/validate-tokens.mjs`; do not edit generated CSS by hand. Runtime import remains separate implementation work with screenshot and save/load tests.
 
 ใช้เก็บ implementation notes, architecture, data contracts, asset pipeline และวิธีรับช่วงพัฒนา กติกาและเป้าหมายผู้เล่นอ้างอิง [Game Design](../02-game-design/README.md)
 

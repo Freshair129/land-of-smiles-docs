@@ -29,7 +29,7 @@
 
 ## กฎสำหรับผู้ทำ UI และ Character Art
 
-อ่าน [Design System v1](05-art-and-ux/DESIGN_SYSTEM_v1_TH.md) และ [VT01–VT05 Character Rules](05-art-and-ux/INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md) ก่อนสร้างภาพใหม่ ห้ามใช้สีเพียงอย่างเดียวเพื่อแยกประเภท หรือทำให้ผลวินิจฉัย Cxx แปลว่าอันตรายเชิงการต่อสู้; หากแก้สีใน token JSON ต้องแก้ CSS คู่กันและรัน `node 05-art-and-ux/tokens/validate-tokens.mjs`. งานนี้ยัง Draft รอ DEC-012 และไม่ถือว่าโลโก้/ภาพจบแล้ว
+อ่าน [Design System v1.1](05-art-and-ux/DESIGN_SYSTEM_v1_TH.md), [Color & Texture](05-art-and-ux/COLOR_AND_TEXTURE_SYSTEM_v1_TH.md) และ [VT01–VT05 Character Rules](05-art-and-ux/INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md) ก่อนสร้างภาพใหม่; ห้ามใช้สีอย่างเดียวเพื่อแยกประเภท หรือทำให้ผลวินิจฉัย Cxx แปลว่าอันตรายเชิงการต่อสู้. ลายเลือดแดงใช้บน marketing/hero เท่านั้น ไม่ใช้ทับข้อมูลแพทย์. เมื่อแก้ token JSON ให้รัน `node 05-art-and-ux/tokens/build-tokens.mjs`, จากนั้น `node 05-art-and-ux/tokens/build-tokens.mjs --check` และ `node 05-art-and-ux/tokens/validate-tokens.mjs`, commit CSS ที่ regenerate ด้วยกัน. งานนี้ Draft รอ DEC-012 และไม่ถือว่าโลโก้/ภาพได้รับการอนุมัติ
 
 ---
 

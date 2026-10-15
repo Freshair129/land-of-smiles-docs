@@ -4,17 +4,23 @@
 
 หมวดนี้รวมงานที่ผู้เล่นมองเห็น ได้ยิน และใช้โต้ตอบ; เพิ่มการกำกับ visual identity, character classes และ UI tokens ที่แยกจาก Game Design / Narrative
 
-## Design System v1.0 (Draft)
+## Design System v1.1 — Ruin × Blood × Bone (Draft)
 
-- **[LAND OF SMILES — Design System](DESIGN_SYSTEM_v1_TH.md)** — Visual language, palettes, UI components, evidence states, typography, accessibility และ templates
-- **[FANS-26 Infected Character Design System](INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md)** — VT01–VT05 silhouette, pose, motion, material, acceptance gates ให้แยกประเภทได้แม้ภาพขาวดำ 96px
-- **[DTCG design tokens](tokens/land-of-smiles.tokens.json)** — Primitive + dark/light semantic themes + C00–C40 / VT01–VT05 token groups
-- **[CSS tokens](tokens/land-of-smiles.css)** + **[Component CSS](components.css)** — พร้อมนำไป import ในเว็บ (ยังไม่ผูกเข้ากับ runtime)
-- **[Static responsive design preview](design-system-preview.html)** — Mission Control, Case Dossier, 5 silhouette cards พร้อมปุ่มสลับธีม
-- **[Token validator](tokens/validate-tokens.mjs)** — Run: `node 05-art-and-ux/tokens/validate-tokens.mjs`
+งานชุดนี้ต่อยอดจากบอร์ด Survival Horror รุ่นแดงเลือด–ดำ–กระดาษเก่า; **สีแดงเป็นแบรนด์ ไม่ใช่ผลวินิจฉัยของ Cxx**
 
-**Status:** ทีมมีเอกสาร+code CSS/JSON แล้ว ไม่ได้แปลว่ามี final logo, final artwork, 3D model ใหม่หรือว่ารันในเกมแล้ว; DEC-005/012 ยัง Open
+**เอกสารหลัก**
+- [Design System v1.1](DESIGN_SYSTEM_v1_TH.md) — visual language, typography, tokens, screen rules และ accessibility
+- [Color & Texture v1.1](COLOR_AND_TEXTURE_SYSTEM_v1_TH.md) — master palette hex, dark/light, horror-red splatter rules และ C30 teal semantics
+- [Component & Screen Spec](COMPONENT_AND_SCREEN_SPEC_v1_TH.md) — Mission Control, Clinical Dossier, Triage, VT guide, buttons และ state contracts
+- [Character Design System](INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md) — VT01–VT05 silhouette, anatomy cues, motion, materials, art acceptance
+- [Static design preview](design-system-preview.html) — actual CSS classes; switch dark/light, palette and 5 silhouette examples
 
+**Machine-readable & Frontend**
+- [DTCG tokens JSON](tokens/land-of-smiles.tokens.json) → [Generated CSS](tokens/land-of-smiles.css), [Component CSS](components.css)
+- [Build script](tokens/build-tokens.mjs) + [Validator](tokens/validate-tokens.mjs) + [Token usage](tokens/README.md)
+- Build/check: `node 05-art-and-ux/tokens/build-tokens.mjs --check` and `node 05-art-and-ux/tokens/validate-tokens.mjs`
+
+**สถานะ:** Proposed DS, logo/font licensing/character art ไม่ได้ Final; ไม่ได้ import เข้าเกม S9 runtime และยังต้องผ่าน DEC-005/DEC-012
 
 **ชิ้นงานล่าสุด:** [S9 Pho Nimit — Model study V1](../../art/s9-pho-nimit/README.md) พร้อม GLB, source สร้างโมเดล, ตัวดู 3D และภาพจริง 11 ภาพ มีรุ่น gameplay ที่ปรับช่องราวและพื้นพักเข้า [runtime v0.6](../../src/README.md) แล้ว ระบุสิ่งที่อ้างอิงได้กับค่าประมาณแยกกัน
 

@@ -6,7 +6,8 @@
 **Tutorial / Vertical Slice:** S9 PHO NIMIT — FIRST SHELTER  
 **Genre:** Survival Strategy / Colony Simulation / Crisis Management / Urban Recovery  
 **Status:** Proposed creative direction; not a claim of trademark clearance or an approved commercial identity.  
-**Updated:** 14 October 2026
+**Updated:** 14 October 2026  
+**Visual system proposal (15 October 2026):** [Design System v1.1 / Ruin × Blood × Bone](../05-art-and-ux/DESIGN_SYSTEM_v1_TH.md). This does **not** approve final brand/logo/trademark or change medical Canon.
 
 ## 1. Decision record — ชื่อและตำแหน่งแบรนด์
 - เปลี่ยนชื่อโปรเจกต์หลักจาก **Bangkok Outbreak** เป็น **LAND OF SMILES** (รูปแบบใช้งานบนโลโก้และหน้าปก)
@@ -47,9 +48,9 @@
 **Design rules**
 - โลโก้ต้องอ่านออกได้แบบสีเดียวและย่อขนาดเล็ก
 - ห้ามใช้ธงชาติ/ตราหน่วยราชการจริงเป็นองค์ประกอบที่สื่อการรับรองอย่างเป็นทางการ
-- UI กลางวัน: สีคอนกรีต/ขาวหม่น + ฟ้าจากน้ำ + สีเหลืองการช่วยเหลือ; สีแดงใช้เฉพาะสถานะเตือนภัย
-- UI กลางคืน: ทึบหม่น อ่านได้ชัด ไม่ใช้เลือดสาดเป็นเอกลักษณ์ทุกหน้า
-- Typography: ตัวอักษรตัวพิมพ์ใหญ่สำหรับโลโก้; ภาษาไทยอ่านได้ใน HUD ขนาดเล็ก
+- UI กลางวัน (DS v1.1 **draft**): ผิว Bone White / Concrete / Paper, ตัวอักษร Charcoal; **แดงเลือดเข้ม** เป็น brand accent และ CTA, **Storm Blue เข้ม** เป็นสีฟังก์ชันสำหรับเส้นทาง/น้ำ, Amber สำหรับช่วยเหลือ; สีสถานะโรค Cxx แยก semantic จากความรุนแรง และ C30 Confirmed ใช้ teal
+- UI กลางคืน (DS v1.1 **draft**): Ruin Black / Charcoal + ไฮไลต์แดงเลือด; อนุญาตคราบเปื้อน/กระเซ็นสีแดงเฉพาะปก, chapter, masthead และ marketing พื้นหลัง แต่ไม่วางบน Clinical Dossier, ตัวเลข, แผนที่สำคัญ หรือช่องข้อมูล; แยก Danger Alert จาก Brand Accent เสมอ
+- Typography: ตัวอักษรตัวพิมพ์ใหญ่สำหรับโลโก้; ภาษาไทยอ่านได้ใน HUD ขนาดเล็ก; ใช้ [Token Registry](../05-art-and-ux/tokens/land-of-smiles.tokens.json) เป็น source of truth ของสี/spacing และต้องไม่คัดสีหรือข้อความทางการแพทย์จากภาพ AI อัตโนมัติ
 
 ## 6. Key art and trailer
 **Hero image:** ทางเดินลอยฟ้าสถานีรถไฟเหนือถนนน้ำท่วม ผู้รอดชีวิตต่อคิวรับเสบียง พื้นหลังมีแสงไฟจากฐานและร่างเงาผู้ติดเชื้อ เส้นยิ้ม/รอยกัดถูกซ่อนในองค์ประกอบป้าย/รอยแยกของภาพ ไม่ต้องให้ผู้ติดเชื้อทุกตัวแสยะยิ้ม

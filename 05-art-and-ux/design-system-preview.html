@@ -10,7 +10,8 @@
 <style>
   .preview-header { display:flex; flex-wrap:wrap; justify-content:space-between; gap:24px; align-items:center; }
   .preview-brand { font-family:var(--los-font-display); font-weight:700; font-size:clamp(2.3rem,6vw,4rem); line-height:1; letter-spacing:-.03em; }
-  .preview-brand span { color:var(--los-color-accent); }
+  .preview-brand span { color:var(--los-palette-blood-bright); }
+  .los-brand-hero .los-button--secondary { color:var(--los-palette-bone-white); border-color:var(--los-palette-border-dark); }
   .preview-title { margin: 2rem 0 1rem; font-size:1.25rem; }
   .preview-tag { font:700 .8rem/1.4 var(--los-font-mono); letter-spacing:.04em; border:1px solid var(--los-color-border); padding:.3rem .5rem; border-radius:var(--los-radius-xs); }
   .preview-sample { max-width:24rem; color:var(--los-color-text-secondary); }
@@ -33,16 +34,31 @@
 </head>
 <body>
 <main class="los-shell">
-  <div class="preview-header">
+  <header class="preview-header los-brand-hero">
     <div>
       <div class="los-kicker">LAND OF SMILES / BANGKOK OUTBREAK / DS-001</div>
-      <div class="preview-brand">LAND OF <span>SMILES</span></div>
-      <p class="los-muted">The land still smiles. The water remembers.</p>
+      <div class="preview-brand los-brand-hero__wordmark">LAND OF <span>SMILES</span></div>
+      <p class="los-brand-hero__subtitle">BANGKOK OUTBREAK · The land still smiles. The water remembers.</p>
     </div>
     <button id="themeToggle" class="los-button los-button--secondary" type="button" aria-label="เปลี่ยนธีมเป็นแบบสว่าง" aria-pressed="false">เปลี่ยนเป็น Light Theme</button>
-  </div>
+  </header>
   <div class="preview-waterline" aria-hidden="true"></div>
-  <div class="los-notice"><strong>DESIGN PREVIEW / FICTIONAL SAMPLE ONLY:</strong> ข้อมูลและจำนวนตัวอย่างไม่ใช่ข้อมูลเกมจริงหรือคำวินิจฉัยทางการแพทย์ โรค FANS-26 ไม่ได้รับการรับรองจาก WHO</div>
+  <div class="los-notice"><strong>DS v1.1 / FICTIONAL SAMPLE ONLY:</strong> Ruin × Blood × Bone. สีแดงและรอยเปื้อนเป็นการตกแต่งปกเกม ไม่ใช่ผลวินิจฉัยโรคหรือรหัส ICD-11</div>
+
+  <section aria-labelledby="palette-title">
+    <h2 id="palette-title" class="los-section-title">00 — Color Palette <small>source: tokens.json / no pastel-blue light theme</small></h2>
+    <div class="los-palette-grid">
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-ruin-black)"></div><div class="los-swatch__details"><strong>Ruin Black</strong><small>#0B0F14</small></div></div>
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-charcoal)"></div><div class="los-swatch__details"><strong>Charcoal</strong><small>#1E2328</small></div></div>
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-blood-deep)"></div><div class="los-swatch__details"><strong>Blood Red</strong><small>#8B1E1E</small></div></div>
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-blood-dried)"></div><div class="los-swatch__details"><strong>Dried Blood</strong><small>#5A1A1A</small></div></div>
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-bone-white)"></div><div class="los-swatch__details"><strong>Bone White</strong><small>#E6DED1</small></div></div>
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-concrete)"></div><div class="los-swatch__details"><strong>Concrete</strong><small>#C9C5BD</small></div></div>
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-storm-blue)"></div><div class="los-swatch__details"><strong>Storm Blue</strong><small>#155768</small></div></div>
+      <div class="los-swatch"><div class="los-swatch__color" style="--los-swatch:var(--los-palette-rust-red)"></div><div class="los-swatch__details"><strong>Rust Red</strong><small>#8F3A30</small></div></div>
+    </div>
+    <hr class="los-grunge-divider">
+  </section>
 
   <div class="preview-titlebar">
     <h2 class="preview-title">01 — Mission Control / S9 Pho Nimit</h2>
@@ -68,7 +84,7 @@
 
   <h2 class="preview-title">02 — Medical / Evidence states</h2>
   <div class="los-layout">
-    <section class="los-card" aria-labelledby="caseTitle">
+    <section class="los-card los-clinical-panel" aria-labelledby="caseTitle">
       <div class="los-kicker">S9 SHELTER / TRIAGE CARD / SAMPLE</div>
       <h3 id="caseTitle" style="margin:.5rem 0 1rem;">ระเบียนเฝ้าสังเกต #EXAMPLE-001</h3>
       <div class="los-pair">
@@ -89,7 +105,7 @@
         <a class="los-button los-button--secondary" style="text-decoration:none;display:inline-flex;align-items:center" href="../06-engineering/FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md">Coding registry</a>
       </div>
     </section>
-    <section class="los-card los-card--raised">
+    <section class="los-card los-card--raised los-clinical-panel">
       <h3 style="margin-top:0">Legend · ความแน่นอนของหลักฐาน</h3>
       <div class="preview-cases" aria-label="คำอธิบายรหัสสถานะตัวอย่าง">
         <span class="los-case" data-case="C00">C00 · Unreviewed</span>
@@ -150,11 +166,11 @@
 
   <h2 class="preview-title">04 — Design tokens / semantics</h2>
   <div class="los-grid">
-    <section class="los-card"><div class="los-kicker">ACTION / RESCUE</div><h3>คนมาก่อนภัยคุกคาม</h3><p class="los-muted">กรณีช่วยเหลือใช้น้ำ/สีเหลืองอำพัน แต่ไม่ใช้เป็นสีระบุผู้ป่วยที่มีความผิด</p></section>
+    <section class="los-card"><div class="los-kicker">ACTION / RESCUE</div><h3>คนมาก่อนภัยคุกคาม</h3><p class="los-muted">สีแดงใช้สร้างตัวตนแบรนด์ ส่วน Rescue ใช้ Amber และเส้นทาง/น้ำใช้ Storm Blue ที่อ่านชัดบนกระดาษเก่า</p></section>
     <section class="los-card"><div class="los-kicker">EVIDENCE / NO OMNISCIENCE</div><h3>C ≠ S ≠ SV ≠ VT ≠ RG</h3><p class="los-muted">ผู้ป่วยระยะรุนแรงอาจยังมีหลักฐานเพียงระดับสงสัย กราฟิกต้องไม่อ้างว่าแพทย์รู้ทุกอย่าง</p></section>
     <section class="los-card"><div class="los-kicker">NO-GORE VISUAL SYSTEM</div><h3>Design by behavior</h3><p class="los-muted">Five infected types distinguishable by shape, movement, texture, costume and location without visible gore</p></section>
   </div>
-  <p class="preview-foot">LAND OF SMILES — Design System preview v1.0 · HTML/CSS-only demonstration with a functioning theme toggle. No medical claim, no game runtime integration, no trademark approval.</p>
+  <p class="preview-foot">LAND OF SMILES — Design System preview v1.1 · HTML/CSS-only demonstration with a functioning theme toggle. No medical claim, no game runtime integration, no trademark approval.</p>
 </main>
 <script>
   const button=document.getElementById("themeToggle");
