@@ -1,0 +1,32 @@
+name: Design tokens and UI semantics
+
+on:
+  pull_request:
+    paths:
+      - '05-art-and-ux/**'
+      - '.github/workflows/design-tokens.yml'
+  push:
+    branches: [main]
+    paths:
+      - '05-art-and-ux/**'
+      - '.github/workflows/design-tokens.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  design-token-consistency:
+    name: DTCG/CSS and contrast
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout docs
+        uses: actions/checkout@v4
+      - name: Node runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check CSS has been generated from JSON
+        run: node 05-art-and-ux/tokens/build-tokens.mjs --check
+      - name: Validate aliases, status semantics, contrast and examples
+        run: node 05-art-and-ux/tokens/validate-tokens.mjs

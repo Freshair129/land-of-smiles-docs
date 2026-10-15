@@ -17,5 +17,7 @@
 
 สถานะต้นฉบับคือ **Proposed creative direction** การใช้ชื่อ LAND OF SMILES ในโครงสร้างนี้ไม่ได้เปลี่ยนข้อเสนอด้าน tagline, logo หรือระดับ horror ให้เป็นคำตัดสินสุดท้าย
 
+**Draft visual implementation v1.1:** [Design System — Ruin × Blood × Bone](../05-art-and-ux/DESIGN_SYSTEM_v1_TH.md), [Color & Texture](../05-art-and-ux/COLOR_AND_TEXTURE_SYSTEM_v1_TH.md) และ [DTCG/CSS Tokens](../05-art-and-ux/tokens/README.md) ต่อยอดข้อ 3–5 ด้วยแดงเลือดและ light theme กระดาษเก่า; ยังไม่ล็อก logo, tagline, trademark หรือ age rating จน DEC-005/012 ผ่าน
+
 อ่านร่วมกับ [Game Design](../02-game-design/README.md), [Narrative](../03-narrative/README.md) และ [Art & UX](../05-art-and-ux/README.md) หากต้องการบันทึกคำตอบด้านแบรนด์ ใช้ [Decision Record](../templates/decision-record.md)
 

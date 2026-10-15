@@ -63,6 +63,18 @@
 
 ---
 
+## 🎨 Visual Design System v1.1 — Ruin × Blood × Bone (Draft)
+
+- [Design System v1.1](05-art-and-ux/DESIGN_SYSTEM_v1_TH.md) — สีแดงเลือด/ถ่านดำ/กระดาษเก่า, UI semantics, type/spacing, accessibility
+- [Color & Texture](05-art-and-ux/COLOR_AND_TEXTURE_SYSTEM_v1_TH.md) — แม่สีและกฎลายเปื้อนแดงแบบ horror; C30 ยังคง teal เพราะหมายถึงหลักฐาน
+- [Component & Screen Spec](05-art-and-ux/COMPONENT_AND_SCREEN_SPEC_v1_TH.md) — Mission Control, Triage, Medical Dossier และ VT Field Guide
+- [VT01–VT05 Character Art Direction](05-art-and-ux/INFECTED_CHARACTER_DESIGN_SYSTEM_v1_TH.md) — รูปทรง/ท่าทางต่างกันแม้มองเงาดำ
+- [DTCG Tokens JSON](05-art-and-ux/tokens/land-of-smiles.tokens.json) → [Generated CSS](05-art-and-ux/tokens/land-of-smiles.css) · [Component CSS](05-art-and-ux/components.css)
+- [Build & Validation](05-art-and-ux/tokens/README.md) · [Static HTML Preview](05-art-and-ux/design-system-preview.html)
+- **Pending DEC-005 / DEC-012:** รูปแบบแบรนด์และงานภาพยังเป็น proposal ไม่ใช่โลโก้ final หรือเกม runtime ที่ปรับใช้แล้ว
+
+---
+
 ## 📁 สารบัญโครงสร้าง Repository (Directory Map)
 
 ```text

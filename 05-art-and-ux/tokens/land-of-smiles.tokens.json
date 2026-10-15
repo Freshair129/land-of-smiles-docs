@@ -1,0 +1,1123 @@
+{
+  "$description": "Land of Smiles Design System 1.1: Ruin/Blood/Bone visual palette. DTCG-style theme source. Brand splatter is decoration only; Cxx is evidence, not threat.",
+  "$extensions": {
+    "org.landofsmiles": {
+      "version": "1.1.0",
+      "status": "proposed",
+      "mode": "ruin-blood-bone",
+      "reference": "Blood-stained survival-horror board (inspiration only; not authoritative for case definitions)",
+      "brand": "LAND OF SMILES",
+      "campaign": "Bangkok Outbreak",
+      "fictionalData": true,
+      "approval": "DEC-005 and DEC-012 open"
+    }
+  },
+  "color": {
+    "primitive": {
+      "ruinBlack": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.043137,
+            0.058824,
+            0.078431
+          ],
+          "hex": "#0B0F14"
+        }
+      },
+      "charcoal": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.117647,
+            0.137255,
+            0.156863
+          ],
+          "hex": "#1E2328"
+        }
+      },
+      "deepPanel": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.176471,
+            0.203922,
+            0.227451
+          ],
+          "hex": "#2D343A"
+        }
+      },
+      "ashGreen": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.235294,
+            0.27451,
+            0.258824
+          ],
+          "hex": "#3C4642"
+        }
+      },
+      "boneWhite": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.901961,
+            0.870588,
+            0.819608
+          ],
+          "hex": "#E6DED1"
+        }
+      },
+      "paperWhite": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.960784,
+            0.941176,
+            0.909804
+          ],
+          "hex": "#F5F0E8"
+        }
+      },
+      "concrete": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.788235,
+            0.772549,
+            0.741176
+          ],
+          "hex": "#C9C5BD"
+        }
+      },
+      "dustGrey": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.654902,
+            0.654902,
+            0.631373
+          ],
+          "hex": "#A7A7A1"
+        }
+      },
+      "grimeSand": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.843137,
+            0.776471,
+            0.690196
+          ],
+          "hex": "#D7C6B0"
+        }
+      },
+      "stormBrown": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.32549,
+            0.282353,
+            0.247059
+          ],
+          "hex": "#53483F"
+        }
+      },
+      "stormTeal": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.058824,
+            0.298039,
+            0.360784
+          ],
+          "hex": "#0F4C5C"
+        }
+      },
+      "stormBlue": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.082353,
+            0.341176,
+            0.407843
+          ],
+          "hex": "#155768"
+        }
+      },
+      "stormMist": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.552941,
+            0.827451,
+            0.87451
+          ],
+          "hex": "#8DD3DF"
+        }
+      },
+      "rustRed": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.560784,
+            0.227451,
+            0.188235
+          ],
+          "hex": "#8F3A30"
+        }
+      },
+      "rustBrown": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.419608,
+            0.176471,
+            0.141176
+          ],
+          "hex": "#6B2D24"
+        }
+      },
+      "bloodDeep": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.545098,
+            0.117647,
+            0.117647
+          ],
+          "hex": "#8B1E1E"
+        }
+      },
+      "bloodDried": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.352941,
+            0.101961,
+            0.101961
+          ],
+          "hex": "#5A1A1A"
+        }
+      },
+      "bloodMark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.756863,
+            0.168627,
+            0.180392
+          ],
+          "hex": "#C12B2E"
+        }
+      },
+      "bloodBright": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.941176,
+            0.470588,
+            0.435294
+          ],
+          "hex": "#F0786F"
+        }
+      },
+      "bloodDanger": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.607843,
+            0.141176,
+            0.188235
+          ],
+          "hex": "#9B2430"
+        }
+      },
+      "bloodDangerLight": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.619608,
+            0.572549
+          ],
+          "hex": "#FF9E92"
+        }
+      },
+      "rescueAmber": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.909804,
+            0.717647,
+            0.427451
+          ],
+          "hex": "#E8B76D"
+        }
+      },
+      "rescueDark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.513725,
+            0.266667,
+            0.066667
+          ],
+          "hex": "#834411"
+        }
+      },
+      "successLight": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.545098,
+            0.854902,
+            0.705882
+          ],
+          "hex": "#8BDAB4"
+        }
+      },
+      "successDark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.094118,
+            0.4,
+            0.298039
+          ],
+          "hex": "#18664C"
+        }
+      },
+      "textDark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.960784,
+            0.933333,
+            0.901961
+          ],
+          "hex": "#F5EEE6"
+        }
+      },
+      "textSecondaryDark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.831373,
+            0.811765,
+            0.768627
+          ],
+          "hex": "#D4CFC4"
+        }
+      },
+      "textMutedDark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.713725,
+            0.709804,
+            0.682353
+          ],
+          "hex": "#B6B5AE"
+        }
+      },
+      "textInk": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.12549,
+            0.145098,
+            0.164706
+          ],
+          "hex": "#20252A"
+        }
+      },
+      "lightMuted": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.388235,
+            0.345098,
+            0.309804
+          ],
+          "hex": "#63584F"
+        }
+      },
+      "borderDark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.509804,
+            0.564706,
+            0.576471
+          ],
+          "hex": "#829093"
+        }
+      },
+      "borderLight": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.513725,
+            0.478431,
+            0.447059
+          ],
+          "hex": "#837A72"
+        }
+      },
+      "focusAmber": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.968627,
+            0.815686,
+            0.541176
+          ],
+          "hex": "#F7D08A"
+        }
+      },
+      "caseDarkC20": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.964706,
+            0.662745,
+            0.517647
+          ],
+          "hex": "#F6A984"
+        }
+      },
+      "caseDarkC30": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.513725,
+            0.847059,
+            0.815686
+          ],
+          "hex": "#83D8D0"
+        }
+      },
+      "caseDarkC40": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.717647,
+            0.784314,
+            0.819608
+          ],
+          "hex": "#B7C8D1"
+        }
+      },
+      "caseLightC20": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.623529,
+            0.282353,
+            0.129412
+          ],
+          "hex": "#9F4821"
+        }
+      },
+      "caseLightC30": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.094118,
+            0.337255,
+            0.396078
+          ],
+          "hex": "#185665"
+        }
+      },
+      "caseLightC40": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.298039,
+            0.356863,
+            0.376471
+          ],
+          "hex": "#4C5B60"
+        }
+      },
+      "vt01Dark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.941176,
+            0.470588,
+            0.435294
+          ],
+          "hex": "#F0786F"
+        }
+      },
+      "vt02Dark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.709804,
+            0.784314,
+            0.533333
+          ],
+          "hex": "#B5C888"
+        }
+      },
+      "vt03Dark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.741176,
+            0.670588,
+            0.894118
+          ],
+          "hex": "#BDABE4"
+        }
+      },
+      "vt04Dark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.972549,
+            0.694118,
+            0.423529
+          ],
+          "hex": "#F8B16C"
+        }
+      },
+      "vt05Dark": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.552941,
+            0.827451,
+            0.87451
+          ],
+          "hex": "#8DD3DF"
+        }
+      },
+      "vt01Light": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.639216,
+            0.070588,
+            0.070588
+          ],
+          "hex": "#A31212"
+        }
+      },
+      "vt02Light": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.333333,
+            0.419608,
+            0.227451
+          ],
+          "hex": "#556B3A"
+        }
+      },
+      "vt03Light": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.415686,
+            0.290196,
+            0.478431
+          ],
+          "hex": "#6A4A7A"
+        }
+      },
+      "vt04Light": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.682353,
+            0.294118,
+            0.094118
+          ],
+          "hex": "#AE4B18"
+        }
+      },
+      "vt05Light": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.184314,
+            0.364706,
+            0.411765
+          ],
+          "hex": "#2F5D69"
+        }
+      },
+      "white": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "hex": "#FFFFFF"
+        }
+      },
+      "black": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        }
+      },
+      "$type": "color"
+    },
+    "theme": {
+      "$type": "color",
+      "dark": {
+        "canvas": {
+          "$value": "{color.primitive.ruinBlack}"
+        },
+        "surface": {
+          "$value": "{color.primitive.charcoal}"
+        },
+        "surfaceRaised": {
+          "$value": "{color.primitive.deepPanel}"
+        },
+        "surfaceAlt": {
+          "$value": "{color.primitive.ashGreen}"
+        },
+        "textPrimary": {
+          "$value": "{color.primitive.textDark}"
+        },
+        "textSecondary": {
+          "$value": "{color.primitive.textSecondaryDark}"
+        },
+        "textMuted": {
+          "$value": "{color.primitive.textMutedDark}"
+        },
+        "border": {
+          "$value": "{color.primitive.borderDark}"
+        },
+        "accent": {
+          "$value": "{color.primitive.bloodBright}"
+        },
+        "accentText": {
+          "$value": "{color.primitive.ruinBlack}"
+        },
+        "brand": {
+          "$value": "{color.primitive.bloodBright}"
+        },
+        "brandText": {
+          "$value": "{color.primitive.ruinBlack}"
+        },
+        "bloodSplatter": {
+          "$value": "{color.primitive.bloodMark}"
+        },
+        "operational": {
+          "$value": "{color.primitive.stormMist}"
+        },
+        "operationalText": {
+          "$value": "{color.primitive.ruinBlack}"
+        },
+        "rescue": {
+          "$value": "{color.primitive.rescueAmber}"
+        },
+        "rescueText": {
+          "$value": "{color.primitive.ruinBlack}"
+        },
+        "danger": {
+          "$value": "{color.primitive.bloodDangerLight}"
+        },
+        "dangerText": {
+          "$value": "{color.primitive.ruinBlack}"
+        },
+        "success": {
+          "$value": "{color.primitive.successLight}"
+        },
+        "successText": {
+          "$value": "{color.primitive.ruinBlack}"
+        },
+        "focus": {
+          "$value": "{color.primitive.focusAmber}"
+        }
+      },
+      "light": {
+        "canvas": {
+          "$value": "{color.primitive.boneWhite}"
+        },
+        "surface": {
+          "$value": "{color.primitive.paperWhite}"
+        },
+        "surfaceRaised": {
+          "$value": "{color.primitive.grimeSand}"
+        },
+        "surfaceAlt": {
+          "$value": "{color.primitive.concrete}"
+        },
+        "textPrimary": {
+          "$value": "{color.primitive.textInk}"
+        },
+        "textSecondary": {
+          "$value": "{color.primitive.stormBrown}"
+        },
+        "textMuted": {
+          "$value": "{color.primitive.lightMuted}"
+        },
+        "border": {
+          "$value": "{color.primitive.borderLight}"
+        },
+        "accent": {
+          "$value": "{color.primitive.bloodDeep}"
+        },
+        "accentText": {
+          "$value": "{color.primitive.white}"
+        },
+        "brand": {
+          "$value": "{color.primitive.bloodDeep}"
+        },
+        "brandText": {
+          "$value": "{color.primitive.white}"
+        },
+        "bloodSplatter": {
+          "$value": "{color.primitive.bloodDried}"
+        },
+        "operational": {
+          "$value": "{color.primitive.stormBlue}"
+        },
+        "operationalText": {
+          "$value": "{color.primitive.white}"
+        },
+        "rescue": {
+          "$value": "{color.primitive.rescueDark}"
+        },
+        "rescueText": {
+          "$value": "{color.primitive.white}"
+        },
+        "danger": {
+          "$value": "{color.primitive.bloodDanger}"
+        },
+        "dangerText": {
+          "$value": "{color.primitive.white}"
+        },
+        "success": {
+          "$value": "{color.primitive.successDark}"
+        },
+        "successText": {
+          "$value": "{color.primitive.white}"
+        },
+        "focus": {
+          "$value": "{color.primitive.bloodDeep}"
+        }
+      }
+    },
+    "surveillance": {
+      "$type": "color",
+      "dark": {
+        "C00": {
+          "$value": "{color.primitive.textSecondaryDark}"
+        },
+        "C10": {
+          "$value": "{color.primitive.rescueAmber}"
+        },
+        "C20": {
+          "$value": "{color.primitive.caseDarkC20}"
+        },
+        "C30": {
+          "$value": "{color.primitive.caseDarkC30}"
+        },
+        "C40": {
+          "$value": "{color.primitive.caseDarkC40}"
+        }
+      },
+      "light": {
+        "C00": {
+          "$value": "{color.primitive.lightMuted}"
+        },
+        "C10": {
+          "$value": "{color.primitive.rescueDark}"
+        },
+        "C20": {
+          "$value": "{color.primitive.caseLightC20}"
+        },
+        "C30": {
+          "$value": "{color.primitive.caseLightC30}"
+        },
+        "C40": {
+          "$value": "{color.primitive.caseLightC40}"
+        }
+      }
+    },
+    "infectedType": {
+      "$type": "color",
+      "dark": {
+        "VT01": {
+          "$value": "{color.primitive.vt01Dark}"
+        },
+        "VT02": {
+          "$value": "{color.primitive.vt02Dark}"
+        },
+        "VT03": {
+          "$value": "{color.primitive.vt03Dark}"
+        },
+        "VT04": {
+          "$value": "{color.primitive.vt04Dark}"
+        },
+        "VT05": {
+          "$value": "{color.primitive.vt05Dark}"
+        }
+      },
+      "light": {
+        "VT01": {
+          "$value": "{color.primitive.vt01Light}"
+        },
+        "VT02": {
+          "$value": "{color.primitive.vt02Light}"
+        },
+        "VT03": {
+          "$value": "{color.primitive.vt03Light}"
+        },
+        "VT04": {
+          "$value": "{color.primitive.vt04Light}"
+        },
+        "VT05": {
+          "$value": "{color.primitive.vt05Light}"
+        }
+      }
+    }
+  },
+  "spacing": {
+    "$type": "dimension",
+    "none": {
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "xxs": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "xs": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      }
+    },
+    "xxl": {
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      }
+    },
+    "xxxl": {
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      }
+    }
+  },
+  "radius": {
+    "$type": "dimension",
+    "none": {
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "xs": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$value": {
+        "value": 28,
+        "unit": "px"
+      }
+    },
+    "pill": {
+      "$value": {
+        "value": 999,
+        "unit": "px"
+      }
+    }
+  },
+  "borderWidth": {
+    "$type": "dimension",
+    "hairline": {
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      }
+    },
+    "strong": {
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      }
+    },
+    "focus": {
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      }
+    }
+  },
+  "typography": {
+    "family": {
+      "$type": "fontFamily",
+      "ui": {
+        "$value": [
+          "IBM Plex Sans Thai",
+          "Noto Sans Thai",
+          "Tahoma",
+          "system-ui",
+          "sans-serif"
+        ]
+      },
+      "display": {
+        "$value": [
+          "Oswald",
+          "Arial Narrow",
+          "IBM Plex Sans Thai",
+          "sans-serif"
+        ]
+      },
+      "mono": {
+        "$value": [
+          "IBM Plex Mono",
+          "Consolas",
+          "monospace"
+        ]
+      }
+    },
+    "size": {
+      "$type": "dimension",
+      "caption": {
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        }
+      },
+      "label": {
+        "$value": {
+          "value": 0.875,
+          "unit": "rem"
+        }
+      },
+      "body": {
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        }
+      },
+      "bodyLarge": {
+        "$value": {
+          "value": 1.125,
+          "unit": "rem"
+        }
+      },
+      "subtitle": {
+        "$value": {
+          "value": 1.375,
+          "unit": "rem"
+        }
+      },
+      "heading": {
+        "$value": {
+          "value": 1.75,
+          "unit": "rem"
+        }
+      },
+      "hero": {
+        "$value": {
+          "value": 2.5,
+          "unit": "rem"
+        }
+      }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "regular": {
+        "$value": 400
+      },
+      "medium": {
+        "$value": 500
+      },
+      "semibold": {
+        "$value": 600
+      },
+      "bold": {
+        "$value": 700
+      }
+    },
+    "lineHeight": {
+      "$type": "number",
+      "tight": {
+        "$value": 1.15
+      },
+      "body": {
+        "$value": 1.55
+      },
+      "relaxed": {
+        "$value": 1.7
+      }
+    }
+  },
+  "motion": {
+    "duration": {
+      "$type": "duration",
+      "fast": {
+        "$value": {
+          "value": 120,
+          "unit": "ms"
+        }
+      },
+      "normal": {
+        "$value": {
+          "value": 200,
+          "unit": "ms"
+        }
+      },
+      "slow": {
+        "$value": {
+          "value": 320,
+          "unit": "ms"
+        }
+      },
+      "alertPulse": {
+        "$value": {
+          "value": 900,
+          "unit": "ms"
+        }
+      }
+    },
+    "reduced": {
+      "$type": "duration",
+      "instant": {
+        "$value": {
+          "value": 0,
+          "unit": "ms"
+        }
+      }
+    }
+  },
+  "opacity": {
+    "$type": "number",
+    "disabled": {
+      "$value": 0.45
+    },
+    "ghost": {
+      "$value": 0.18
+    },
+    "overlay": {
+      "$value": 0.72
+    }
+  },
+  "layout": {
+    "size": {
+      "$type": "dimension",
+      "touchTarget": {
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        }
+      },
+      "sidebar": {
+        "$value": {
+          "value": 272,
+          "unit": "px"
+        }
+      },
+      "contentMax": {
+        "$value": {
+          "value": 1200,
+          "unit": "px"
+        }
+      },
+      "dossierWidth": {
+        "$value": {
+          "value": 920,
+          "unit": "px"
+        }
+      },
+      "cardMin": {
+        "$value": {
+          "value": 240,
+          "unit": "px"
+        }
+      }
+    }
+  },
+  "graphics": {
+    "grunge": {
+      "$type": "number",
+      "heroOpacity": {
+        "$value": 0.32
+      },
+      "promoOpacity": {
+        "$value": 0.16
+      },
+      "panelAccentOpacity": {
+        "$value": 0.07
+      },
+      "medicalOpacity": {
+        "$value": 0
+      },
+      "printOpacity": {
+        "$value": 0
+      }
+    }
+  }
+}
