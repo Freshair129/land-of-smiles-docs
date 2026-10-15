@@ -407,6 +407,17 @@
           ],
           "hex": "#000000"
         }
+      },
+      "edge500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.439216,
+            0.552941,
+            0.596078
+          ],
+          "hex": "#708D98"
+        }
       }
     },
     "theme": {
@@ -434,7 +445,7 @@
           "$value": "{color.primitive.fog400}"
         },
         "border": {
-          "$value": "{color.primitive.ink600}"
+          "$value": "{color.primitive.edge500}"
         },
         "accent": {
           "$value": "{color.primitive.river400}"
