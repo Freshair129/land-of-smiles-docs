@@ -1,11 +1,11 @@
 # ทะเบียนการตัดสินใจ
 
 **อัปเดต:** 2026-10-14  
-**สถานะ:** Accepted 1 เรื่อง / Open 5 เรื่อง
+**สถานะ:** Accepted 1 เรื่อง / Open 10 เรื่อง
 
 [กลับหมวด Production](README.md)
 
-รายการนี้รวบรวมคำตัดสินและจุดที่ควรชี้ให้ชัดก่อนขยายข้อกำหนด DEC-001 ได้รับคำยืนยันจากเจ้าของโปรเจกต์เมื่อ 2026-10-14 ส่วน DEC-002 ถึง DEC-006 ยังเปิดอยู่
+รายการนี้รวบรวมคำตัดสินและจุดที่ควรชี้ให้ชัดก่อนขยายข้อกำหนด DEC-001 ได้รับคำยืนยันจากเจ้าของโปรเจกต์เมื่อ 2026-10-14 ส่วน DEC-002 ถึง DEC-011 ยังเปิดอยู่
 
 | ID | ประเด็นและหลักฐาน | สิ่งที่ต้องสรุป | สถานะ |
 |---|---|---|---|
@@ -15,6 +15,15 @@
 | DEC-004 | Handoff ข้อ 10 เปิดทางเลือก socket-only กับ free placement; runtime v0.6 คง socket 10 จุดและตรวจ collision/clearance ตามโมเดลแล้ว | ยืนยันรูปแบบ placement ระยะต่อไป; implementation ปัจจุบันไม่ใช่คำตัดสินว่าจะใช้ socket-only ตลอดโครงการ | Open |
 | DEC-005 | Brand ข้อ 13 ยังรอสรุป tagline, logo และสัดส่วน horror เทียบกับ rescue/survival | ชุดทิศทางแบรนด์ที่เลือกและเงื่อนไขก่อน production lock | Open |
 | DEC-006 | Handoff ข้อ 4 ระบุความขัดกันเดิม Y-up/Z-up; runtime v0.6 ใช้โมเดล ทางเดิน จุดวาง และเซฟเป็น Y-up/XZ/เมตรตรงกันและมีผลทดสอบ | รับรองสัญญา coordinates ระยะยาวสำหรับเครื่องมือ/engine ที่จะเลือกต่อไป | Open |
+
+| DEC-007 | [Dual-Agent FANS-26 lore proposal](../03-narrative/FANS-26_DUAL_AGENT_THIRST_LORE_TH.md): เสนอ P-08 ปรสิตซึ่งสัมพันธ์กับไข้/ขาดน้ำ และ V-26 ไวรัสร่วมอาศัยซึ่งสัมพันธ์กับอาการทางสมอง; ขัดกับ Story Canon §5.1 ที่เรียกเชื้อเป็นไวรัสเดี่ยว | ตัดสินใจ 4 เรื่อง: (A) เชื้อคู่หรือไวรัสเดี่ยว (B) ถ่ายทอดเชื้อทั้งคู่ผ่านการกัดหรือไม่ (C) Blood-Seeker เป็น subtype จริงหรืออาการ (D) ความถี่และ rating ของ cannibalism; ก่อนยืนยันห้าม retcon โดยไม่มี review | Open · 2026-10-14 |
+
+| DEC-008 | Regenerative Overdrive — ความสามารถซ่อมแซมเนื้อเยื่อของ V-26 (ข้อเสนอ) ส่งผลต่อการใช้ทรัพยากรและความกระหาย | ตัดสินข้อจำกัดการซ่อมแซม การตายและความจำ, resource debt และต้นทุนการฟื้นฟู; ดู [GD-FANS-003](../02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) | Open · 2026-10-14 |
+| DEC-009 | [Regenerative Instability & Infected Variants GD-FANS-003](../02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) — เสนอ 8% New Types ต่อ 100 ผู้ติดเชื้อ Stage 3 โดยเป็น subset ของ 70% Hyper และใช้ 21 วันจำลอง | อนุมัติอัตรา/ตัวหาร, เงื่อนไข 20 eligible → 8 variant + 12 failure, 5 ประเภทและอัตราแยก, RNG/telemetry/test ก่อน implementation | Open · 2026-10-14 |
+
+| DEC-010 | [GD-FANS-004 Regeneration Speed Model](../02-game-design/FANS-26_CELL_TISSUE_FUNCTION_REGENERATION_SPEED_MODEL_v1_TH.md) — แยก CPM/TRR/FIR และ Tier RG-I..V ออกจาก New Type VT-01..05 | ตรวจค่าประกอบ CPM 5–180×, TRR 0.1–50 g/min แบบ burst, FIR gating, resource debt, ระยะ burst, ขอบเขตเนื้อเยื่อและ QA ก่อนล็อกบาลานซ์; อ้างอิงข้าม species เป็นแรงบันดาลใจ ไม่ใช่ข้อมูลการสร้างเนื้อเยื่อของมนุษย์ | Open · 2026-10-14 |
+
+| DEC-011 | [Clinical Case Definition](../03-narrative/FANS-26_CLINICAL_CASE_DEFINITION_v1_TH.md), [Infected Type Classification](../02-game-design/FANS-26_INFECTED_TYPE_CLASSIFICATION_v1_TH.md), [Coding/Data Dictionary](../06-engineering/FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md): WHO-inspired fictional classification, not ICD-11 | อนุมัติ C00–C40, fictional confirmation evidence, namespace LOS-FANS26, case history/unknown fields, privacy, taxonomy version, แยก stage/severity/type/regeneration ก่อน implementation | Open · 2026-10-14 |
 
 ## แหล่งอ้างอิง
 

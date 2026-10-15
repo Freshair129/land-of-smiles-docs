@@ -41,6 +41,28 @@
 
 ---
 
+## 🦠 FANS-26 Dual-Agent Expansion (รออนุมัติ)
+
+- [Lore — The Thirst That Drowns](03-narrative/FANS-26_DUAL_AGENT_THIRST_LORE_TH.md): P-08 protozoan parasite + V-26 parasite-associated virus เป็นสมมติฐานใหม่; อธิบายไข้/ขาดน้ำจริง, executive dysfunction และ rare blood-seeking subtype
+- [GD-FANS-001 Behavior Spec](02-game-design/FANS-26_DUAL_AGENT_BEHAVIOR_SPEC_TH.md): ระบบสังเกตอาการ คิวแจกน้ำ NPC ที่เสี่ยงลงน้ำท่วม และ acceptance criteria
+- **อ่านก่อนแก้:** Story Canon §5.1 ยังระบุเชื้อเป็นไวรัสเดี่ยว; Dual-Agent เป็น proposal และต้องผ่าน DEC-007 ก่อนเปลี่ยน taxonomy แบบถาวร ผู้ป่วยกระหายน้ำ/มีไข้ไม่ได้แปลว่าติดเชื้อแน่นอน
+
+---
+
+- **GD-FANS-003 (Draft):** [Regenerative Instability & Infected Variants — Game Design](02-game-design/FANS-26_REGENERATIVE_INSTABILITY_VARIANTS_SPEC_v1_TH.md) — สัดส่วน New Type 8% ต่อ 100 Stage-3, 5 รูปแบบ, failure, gating และ QA; pending DEC-008/009
+
+- **GD-FANS-004 (Draft):** [Cell / Tissue / Function Regeneration Speed](02-game-design/FANS-26_CELL_TISSUE_FUNCTION_REGENERATION_SPEED_MODEL_v1_TH.md) — แยก CPM/TRR/FIR, อ้างอิงวิทยาศาสตร์, tier RG-I..V และ resource ceiling; pending DEC-010
+
+## 🩺 FANS-26 Clinical / Types / Coding (WHO-inspired; not WHO-approved)
+
+- [Clinical Syndrome & Surveillance Case Definition](03-narrative/FANS-26_CLINICAL_CASE_DEFINITION_v1_TH.md) — สถานะ C00–C40, symptom codes, stage S01–S04, severity, reporting
+- [Infected Type Classification](02-game-design/FANS-26_INFECTED_TYPE_CLASSIFICATION_v1_TH.md) — VT00–VT05, behavior overlays, 70/30 และ New Type 8% ต่อ cohort
+- [Coding & Case Data Dictionary](06-engineering/FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md) — LOS-FANS26 registry, stable patient ID, privacy/audit/version; pending DEC-011
+
+**Important:** โรคและรหัส LOS-FANS26 เป็นเรื่องแต่ง ใช้โครงสร้าง WHO เป็นแรงบันดาลใจเท่านั้น ไม่มีการรับรอง WHO/ICD-11
+
+---
+
 ## 📁 สารบัญโครงสร้าง Repository (Directory Map)
 
 ```text

@@ -200,6 +200,10 @@ Player tools: แยกพื้นที่สังเกตอาการ, �
 
 **Rules:** ไม่มีเครื่องสแกนพบผู้ติดเชื้อ 100%, การโกรธหรือไม่เชื่อฟังไม่ได้เป็น diagnosis, ผู้ป่วยไม่ถูกทำให้เป็น 'resource' ที่ใช้ทิ้งได้, และการออกคำรับรองผิดข้อมูลมีต้นทุนความเชื่อใจ
 
+**FANS-26 Dual-Agent Behavior (draft):** แยกภาวะขาดน้ำจริงจากไข้/กิจกรรม การหมกมุ่นแหล่งน้ำ และความเสื่อมของการยับยั้งพฤติกรรม ผู้ติดเชื้อบางรายอาจเสี่ยงลงน้ำท่วม ดื่มน้ำเสีย หรือกัดกันเองโดยไม่ทำให้ทุกคนเป็นนักล่า; กลุ่ม Blood-Seeker เป็น phenotype หายากที่ยังไม่มีเปอร์เซ็นต์หรือการยืนยันชนิดเชื้อ ดู [GD-FANS-001](FANS-26_DUAL_AGENT_BEHAVIOR_SPEC_TH.md) และ [Narrative Lore](../03-narrative/FANS-26_DUAL_AGENT_THIRST_LORE_TH.md); ข้อเสนอไม่ถือว่า implemented หรือเปลี่ยน Canon §5.1 ก่อน DEC-007
+
+**Clinical/Type coding proposal:** [FANS-26 Case Definition](../03-narrative/FANS-26_CLINICAL_CASE_DEFINITION_v1_TH.md), [Infected Type Classification](FANS-26_INFECTED_TYPE_CLASSIFICATION_v1_TH.md), [Coding Data Dictionary](../06-engineering/FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md). แยก `case Cxx`, `stage Sxx`, `severity SVxx`, `phenotype VTxx`, `regeneration RGxx` เป็นข้อมูลอิสระ; ห้ามยืนยันเชื้อจากความกระหายหรือสีหน้าเพียงอย่างเดียว (Draft, pending DEC-011)
+
 ### 5.3 Threat simulation
 Threat score ต่อ node ไม่ใช่จำนวนผีดิบอมตะ สร้างจากผู้ติดเชื้อที่ยังมีชีวิตและอยู่ในพื้นที่ + เส้นทางเข้าถึง + ข้อมูลที่ไม่แน่นอน; เมื่อเวลาผ่านไปบาง node สงบลงแต่มีคลัสเตอร์ใหม่จากผู้ป่วยรุ่นหลังได้
 

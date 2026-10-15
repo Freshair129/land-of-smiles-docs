@@ -12,6 +12,8 @@ v0.6.4: [คนเดิน รถวิ่ง ใบไม้ไหว — ก�
 
 **อัปเดต v0.6.3:** [Realism pass](../../art/s9-pho-nimit/realism_model.py) เพิ่มใบโปร่ง ผิววัสดุและรายละเอียดอาคารต่อจาก environment pass พร้อม [daylight](../../src/game/daylight.mjs) และการพักเรนเดอร์เมื่อฉากนิ่ง คงผังและเซฟเดิม ดู [ผลทดสอบล่าสุด 28/28](../08-playtesting/2026-10-14-s9-realism.md) Runtime ใช้ `s9-pho-nimit-gameplay-v063.glb` พร้อม texture/tangent ฝังในไฟล์
 
+**FANS-26 proposed data contract:** [Coding & Case Data Dictionary](FANS-26_CODING_AND_CASE_DATA_DICTIONARY_v1_TH.md) — LOS-FANS26 composite codes, immutable patient ID, independent C/S/SV/VT/RG and audit/version handling (not implemented)
+
 ใช้เก็บ implementation notes, architecture, data contracts, asset pipeline และวิธีรับช่วงพัฒนา กติกาและเป้าหมายผู้เล่นอ้างอิง [Game Design](../02-game-design/README.md)
 
 ## ตำแหน่งไฟล์ปัจจุบัน
